@@ -1,0 +1,356 @@
+[
+	{
+		"name": "The Enclave",
+		"leaderName": "Dick Richardson",
+		"adjective": ["Enclave"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Enclave",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,0],
+		"style": "Enclave",
+		"uniqueName": "TBD",
+		"uniques": [
+			]
+		"cities": [
+			"Navarro",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+			]
+        "spyNames": ["Kreger", "Moreno", "Gannon", "Johnson", "Henry", "Dornan", "Curling", "Autumn", "Whitman","Augustus"]
+	},
+	{
+		"name": "Caeser's Legion",
+		"leaderName": "Caeser",
+		"adjective": ["Legion"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Caeser",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [161, 29, 32],
+		"innerColor": [255,180,18],
+		"style": "Caeser",
+		"uniqueName": "TBD",
+		"uniques": [
+			]
+		"cities": [
+			"Flagstaff",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+			]
+        "spyNames": ["Vulpes", "Silus", "Picus", "Lucius", "Ulysses", "Atticus", "Dead Sea", "Hostillius", "Aurelius","Alexus"]
+	}
+	{
+		"name": "New California Republic",
+		"leaderName": "Aaron Kimball",
+		"adjective": ["NCR"],
+		"startBias": ["Desert"],
+		//"preferredVictoryType": "",
+		//"personality": "Aaron",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [255,255,255],
+		"innerColor": [184,10,49],
+		"style": "",
+		"uniqueName": "TBD",
+		"uniques": [
+			]
+		"cities": [
+			"Shady Sands",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+			]
+        "spyNames": ["", "", "", "", "", "", "", "", "",""]
+	}
+	{
+		"name": "Brotherhood of Steel",
+		"leaderName": "Elder Maxson",
+		"adjective": ["Brotherhood"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+		//"personality": "",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [215,123,0],
+		"innerColor": [255,255,255],
+		"style": "",
+		"uniqueName": "TBD",
+		"uniques": [
+			]
+		"cities": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+			]
+        "spyNames": ["", "", "", "", "", "", "", "", "",""]
+	}
+	{
+		"name": "Commonwealth Minutemen",
+		"leaderName": "Preton Garvey",
+		"adjective": ["Minutemen"],
+		"startBias": ["Wasteland"],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "There's a settlement issue, another settlement needs your help, let me mark it on your map",
+		
+		"outerColor": [39,71,105],
+		"innerColor": [255,255,255],
+		"style": "",
+		"uniqueName": "TBD",
+		"uniques": [
+			]
+		"cities": [
+			"The Castle",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+			]
+        "spyNames": ["", "", "", "", "", "", "", "", "",""]
+	}
+	{
+		"name": "The Institute",
+		"leaderName": "Father",
+		"adjective": ["Institute"],
+		"startBias": [],
+		"preferredVictoryType": "Scientific",
+		//"personality": "",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [0,0,0],
+		"innerColor": [197,5,5],
+		"style": "",
+		"uniqueName": "TBD",
+		"uniques": [
+			]
+		"cities": [
+			"The Institute",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+			]
+        "spyNames": ["X4-18", "X6-88", "X9-27", "Z2-47", "X1-02", "X1-91", "X3-24", "X5-76", "X6-55","X7-55"]
+	}
+	{
+		"name": "New Vegas",
+		"leaderName": "Mr. House",
+		"adjective": ["New Vegas"],
+		"startBias": ["Desert"],
+		//"preferredVictoryType": "",
+		//"personality": "",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [19,45,24],
+		"innerColor": [94,124,98],
+		"style": "",
+		"uniqueName": "TBD",
+		"uniques": [
+			]
+		"cities": [
+			"New Vegas",
+			"Freeside",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+			]
+        "spyNames": ["", "", "", "", "", "", "", "", "",""]
+	}
+
+
+	// City-States
+	{
+		"name": "Boomers",
+		"adjective": ["Boomer"],
+		"cityStateType": "Weapons",
+		"style": "",
+		"uniques": [
+			]
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",		
+		"outerColor": [0,0,0],
+		"innerColor": [238,234,102],
+		"cities": ["Nellis Air Force Base"]
+	},
+	{
+		"name": "People's Liberation Army",
+		"adjective": ["PLA"],
+		"cityStateType": "Weapons",
+		"style": "",
+		"uniques": [
+			]
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",		
+		"outerColor": [203,18,37],
+		"innerColor": [250,208,21],
+		"cities": ["Chinese Occupied Refinery"]
+	},
+
+]

@@ -42,6 +42,25 @@
 			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Capital] cities>"
+			"Only available <in cities without a [Ultra-Luxe]>",
+			"Only available <in cities without a [The Tops]>",
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "The Tops",
+		"uniqueTo": "New Vegas",
+		"happiness": 1,
+		"gold": 1,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": { "happiness": 5, "gold": 5 },
+		"uniques": [
+			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Capital] cities>"
+			"Only available <in cities without a [Ultra-Luxe]>",
+			"Only available <in cities without a [Gomorrah]>",
 		],
 		"requiredTech": "Currency"
 	},
@@ -56,6 +75,8 @@
 			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Capital] cities>"
+			"Only available <in cities without a [The Tops]>",
+			"Only available <in cities without a [Gomorrah]>",
 		],
 		"requiredTech": "Currency"
 	},

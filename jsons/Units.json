@@ -119,9 +119,52 @@
 		],
 		"attackSound": "shot"
 	},
+	//Brotherhood of Steel
+	{
+		"name": "Liberty Prime",
+		"unitType": "Siege", //maybe it should be its own unit type, Siege Nuke?
+		"uniqueTo": "Brotherhood of Steel",
+		"movement": 3,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 3,
+		"cost": 1000,
+		"requiredTech": "Energy Weapons",
+		"uniques": [
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [0]",
+			"Consumes [3] [Aluminum]",
+			"Consumes [3] [Uranium]",
+			"Limited to [1] per Civilization"
+		],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Prydwen",
+		"unitType": "Helicopter",
+		"uniqueTo": "Brotherhood of Steel",
+		"movement": 8,
+		"strength": 100,
+		"rangedStrength": 120,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 600,
+		"requiredTech": "Advanced Materials",
+		"uniques": [
+			"[+20]% Strength for [Military] units within [2] tiles",
+			"[+4] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Land] units>",
+			"[+200]% Strength <vs [Air] units>",
+			"Ignores Zone of Control",
+			"Consumes [3] [Aluminum]",
+			"Consumes [2] [Power]",
+			"Limited to [1] per Civilization"
+		],
+		"attackSound": "shipguns"
+	},
 	////City-States
 	//Boomers
-	
 	{
 		"name": "Restored Howitzer",
 		"unitType": "Siege",
@@ -139,7 +182,7 @@
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"Must set up to ranged attack",
-			"[-1] Sight",
+			"[-1] Sight"
 		],
 		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
@@ -159,7 +202,7 @@
 		"uniques": [
 			"[+50]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"[-1] Sight",
+			"[-1] Sight"
 		],
 		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
@@ -242,5 +285,5 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
-	},
+	}
 ]

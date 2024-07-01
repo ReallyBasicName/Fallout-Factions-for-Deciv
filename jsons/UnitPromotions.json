@@ -4,7 +4,12 @@
 		"uniques": [
 			"Earn [25]% of killed [Military] unit's [Cost] as [Gold]",
 			"[+20]% Strength decreasing with distance from the capital"
-			]
+		]
 	},
-
+	{
+		"name": "Without Borders",
+		"uniques": [
+			"May enter foreign tiles without open borders"
+		]
+	}
 ]

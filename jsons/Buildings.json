@@ -86,7 +86,7 @@
 		"requiredTech": "Currency"
 	},
 	{
-    "name": "New Vegas Steel",
+		"name": "New Vegas Steel",
 		"replaces": "Factory",
 		"uniqueTo": "New Vegas",
 		"percentStatBonus": {"production": 20},
@@ -100,9 +100,9 @@
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
 			"Consumes [1] [Power]"
 		],
+		"requiredTech": "Manufacturing"
   },
   {
-		"requiredTech": "Manufacturing"
 		"name": "Triple Advisatory Council",
 		"uniqueTo": "New Vegas",
 		"replaces": "Congress",

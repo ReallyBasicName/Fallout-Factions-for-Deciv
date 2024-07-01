@@ -86,7 +86,7 @@
 		"requiredTech": "Currency"
 	},
 	{
-		"name": "New Vegas Steel",
+    "name": "New Vegas Steel",
 		"replaces": "Factory",
 		"uniqueTo": "New Vegas",
 		"percentStatBonus": {"production": 20},
@@ -100,7 +100,76 @@
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
 			"Consumes [1] [Power]"
 		],
+  },
+  {
 		"requiredTech": "Manufacturing"
+		"name": "Triple Advisatory Council",
+		"uniqueTo": "New Vegas",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Happiness, +1 Food] per [9] population [in all cities]",
+			"[+5]% growth [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Chairman Advisatory Council]>",
+			"Only available <in cities without a [Omertas Advisatory Council]>",
+			"Only available <in cities without a [White Glove Advisatory Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Chairman Advisatory Council",
+		"uniqueTo": "New Vegas",
+		"replaces": "Council",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+3 Culture] per [10] population [in all cities]",
+			"[+15]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Omertas Advisatory Council]>",
+			"Only available <in cities without a [White Glove Advisatory Council]>",
+			"Only available <in cities without a [Triple Advisatory Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Omertas Advisatory Council",
+		"uniqueTo": "New Vegas",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+3 Happiness] per [10] population [in all cities]",
+			"[+15]% growth [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Chairman Advisatory Council]>",
+			"Only available <in cities without a [White Glove Advisatory Council]>",
+			"Only available <in cities without a [Triple Advisatory Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "White Glove Advisatory Council",
+		"uniqueTo": "New Vegas",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+3 Food] per [10] population [in all cities]",
+			"[-15]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Chairman Advisatory Council]>",
+			"Only available <in cities without a [Omertas Advisatory Council]>",
+			"Only available <in cities without a [Triple Advisatory Council]>",
+			"Destroyed when the city is captured"
+		]
+
 	},
 	////City-States
 	//Boomers

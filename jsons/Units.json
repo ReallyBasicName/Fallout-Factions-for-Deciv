@@ -272,7 +272,6 @@
 		"unitType": "Bomber",
 		"uniqueTo": "Boomers",
 		"replaces": "Horseman",
-		"movement": 1,
 		"strength": 25,
 		"rangedStrength": 50,
 		"range": 8,

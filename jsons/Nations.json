@@ -179,9 +179,9 @@
 		"neutralHello": 
 		"hateHello": 
 		"tradeRequest": 
-
-		"outerColor": 
-		"innerColor": 
+		
+		"outerColor": [173,38,38],
+		"innerColor": [0,0,0],
 		"style": 
 		"uniqueName": 
 		"uniques": [
@@ -220,7 +220,6 @@
 		"attacked": "Just like that, huh? You come this far, then condemn these poor people to die? All right. Have it your way.",
 		"defeated": "This is a dark day... but the Minutemen will bounce back. We always do.",
 		"introduction": "I don't know who you are, but welcome to the Commonwealth. We're the Minutemen, and so long as you leave the good people of the Commonwealth in peace, we can get along.",
-		
 		"neutralHello": "Carry on.",
 		"hateHello": "Yeah, I'm ticked off at you. And you know why.",
 		"tradeRequest": "One day maybe we can put this all back together. Every settlement we help is another step closer to that day.",
@@ -429,7 +428,7 @@
 			"[+2 Happiness] per every [250] [Gold]",
 			"Double quantity of [Encrypted Data] produced",
 			"[Automated] units gain the [Dead Man's Hand] promotion"
-		],
+			]
 		"cities": [
 			"New Vegas",
 			"Freeside",
@@ -465,7 +464,7 @@
 		"declaringWar": "",
 		"attacked": "",
 		"defeated": "",		
-		"outerColor": [172,149,20],
+		"outerColor": [163,141,19],
 		"innerColor": [255,255,255],
 		"cities": ["Old North Church"]
 	},

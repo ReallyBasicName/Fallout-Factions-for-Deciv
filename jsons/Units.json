@@ -151,7 +151,7 @@
 		"cost": 600,
 		"requiredTech": "Advanced Materials",
 		"uniques": [
-			"[+20]% Strength for [Military] units within [2] tiles",
+			"[+20]% Strength bonus for [Military] units within [2] tiles",
 			"[+4] Sight",
 			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Land] units>",

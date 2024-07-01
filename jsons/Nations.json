@@ -185,7 +185,7 @@
 	},*/
 	/*{
 		"name": "Commonwealth Minutemen",
-		"leaderName": "Preton Garvey",
+		"leaderName": "Preston Garvey",
 		"adjective": ["Minutemen"],
 		"startBias": ["Wasteland"],
 		"preferredVictoryType": "Diplomatic",
@@ -202,7 +202,7 @@
 		
 		"neutralHello": "",
 		"hateHello": "",
-		"tradeRequest": "There's a settlement issue, another settlement needs your help, let me mark it on your map",
+		"tradeRequest": "There's a settlement issue, another settlement needs your help, let me mark it on your map.",
 		
 		"outerColor": [39,71,105],
 		"innerColor": [255,255,255],
@@ -228,6 +228,52 @@
 			""
 			]
         "spyNames": ["", "", "", "", "", "", "", "", "",""]
+	},*/
+	/*{
+		"name": "The Unity",
+		"leaderName": "The Master",
+		"adjective": ["Unity"],
+		"startBias": ["Wasteland"],
+		"preferredVictoryType": "Domination",
+		//"personality": "",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [173,38,38],
+		"innerColor": [0,0,0],
+		"style": "",
+		"uniqueName": "TBD",
+		"uniques": [
+			]
+		"cities": [
+			"Mariposa Military Base",
+			"The Cathedral",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+			]
+        "spyNames": ["Morpheus", "Davison", "Dog and God", "Lieutentant", "Tabitha", "Viscious", "Jeremiah", "Van Hagan", "Attis","Gammorin"]
 	},*/
 	/*{
 		"name": "The Institute",
@@ -286,15 +332,20 @@
 		
 		"outerColor": [19,45,24],
 		"innerColor": [94,124,98],
-		"style": "",
+		"style": "Corporate",
 		"uniqueName": "The House Always Wins",
 		"uniques": [
 			"May not annex cities",
+			"Starts with [Construction]",
+			"Starts with [Machinery]",
+			"Starts with [Monopoly] adopted",
+			"Cannot build [Enslaved] units",
 			"Cannot build [Civilian Convoy] units",
 			"[+1 Happiness] per every [50] [Gold]",
 			"[+2 Happiness] per every [250] [Gold]",
 			"Double quantity of [Encrypted Data] produced",
 			"[Automated] units gain the [Dead Man's Hand] promotion",
+			"[-2 Science] [in all cities] <before discovering [Education]>",
 			]
 		"cities": [
 			"New Vegas",
@@ -331,7 +382,7 @@
 		"declaringWar": "",
 		"attacked": "",
 		"defeated": "",		
-		"outerColor": [172,149,20],
+		"outerColor": [163,141,19],
 		"innerColor": [255,255,255],
 		"cities": ["Old North Church"]
 	},

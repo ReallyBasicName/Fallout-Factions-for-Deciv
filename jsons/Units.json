@@ -1,3 +1,246 @@
 [
+	////Majors
+	//New Vegas
+	{
+		"name": "Securitron Mk I",
+		"unitType": "Shooter",
+		"uniqueTo": "New Vegas",
+		"replaces": "Gunman",
+		"range": 1,
+		"movement": 3,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 60,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Securitron Mk II",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Automated",
+			"Consumes [1] [Encrypted Data]"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Securitron Mk II",
+		"unitType": "Shooter",
+		"uniqueTo": "New Vegas",
+		"replaces": "Rifleman",
+		"range": 1,
+		"movement": 3,
+		"strength": 35,
+		"rangedStrength": 30,
+		"interceptRange": 1,
+		"cost": 120,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Securitron Mk III",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Automated",
+			 "Consumes [1] [Encrypted Data]"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Securitron Mk III",
+		"unitType": "Shooter",
+		"uniqueTo": "New Vegas",
+		"replaces": "Marksman",
+		"range": 1,
+		"movement": 3,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Securitron Mk IV",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Automated",
+			"Consumes [1] [Encrypted Data]"
+		],
+		"promotions": ["Reconnaissance I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Securitron Mk IV",
+		"unitType": "Shooter",
+		"uniqueTo": "New Vegas",
+		"replaces": "NBC Marksman",
+		"range": 1,
+		"movement": 3,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 225,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Securitron Mk V",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Automated",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Encrypted Data]"
+		],
+		"promotions": ["Reconnaissance I", "Gas Mask"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Securitron Mk V",
+		"unitType": "Shooter",
+		"uniqueTo": "New Vegas",
+		"replaces": "Black Ops",
+		"range": 2,
+		"movement": 3,
+		"strength": 50,
+		"rangedStrength": 45,
+		"interceptRange": 1,
+		"cost": 300,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,		
+		"uniques": [
+			"Personnel",
+			"Automated",
+			"Only available <if [Automated Factory] is constructed>",
+			"May Paradrop up to [4] tiles from inside friendly territory",
+			"Consumes [2] [Encrypted Data]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Drone Recon",
+			"Reconnaissance I",
+			"Gas Mask",
+			"Thermoptic Camouflage",
+			"Infantry Weapons"
+		],
+		"attackSound": "shot"
+	},
+	////City-States
+	//Boomers
 	
+	{
+		"name": "Restored Howitzer",
+		"unitType": "Siege",
+		"uniqueTo": "Boomers",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 3,
+		"cost": 75,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": [
+			"[+100]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-50]% Strength <vs [Helicopter] units>",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+		],
+		"promotions": ["Artillery"],
+		"hurryCostModifier": 20,
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Restored Fixed Howitzer",
+		"unitType": "Siege",
+		"uniqueTo": "Boomers",
+		"replaces": "Crossbowman",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 4,
+		"cost": 75,
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"[+50]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-1] Sight",
+		],
+		"promotions": ["Artillery"],
+		"hurryCostModifier": 20,
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Grenade Launcher",
+		"unitType": "Scrapper",
+		"uniqueTo": "Boomers",
+		"replaces": "Skirmisher",
+		"range": 1,
+		"movement": 2,
+		"strength": 35,
+		"rangedStrength": 45,
+		"cost": 125,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Missile Launcher",
+		"uniques": [
+			"[+15]% Strength <vs [Armor] units>",
+			"Only available <if [Nellis Air Base] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Missile Launcher",
+		"unitType": "Scrapper",
+		"uniqueTo": "Boomers",
+		"replaces": "Spearman",
+		"range": 1,
+		"movement": 2,
+		"strength": 55,
+		"rangedStrength": 55,
+		"cost": 200,
+		"requiredTech": "Munitions",
+		"upgradesTo": "Fat Man",
+		"uniques": [
+			"Only available <if [Nellis Air Base] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Fat Man",
+		"unitType": "Scrapper",
+		"uniqueTo": "Boomers",
+		"replaces": "Machete",
+		"range": 1,
+		"movement": 2,
+		"strength": 75,
+		"rangedStrength": 65,
+		"cost": 250,
+		"requiredTech": "Advanced Materials",
+		"uniques": [
+			"[+40]% Strength <vs [Armor] units>",
+			"Only available <if [Nellis Air Base] is constructed>",
+			"Consumes [2] [Weapons]"
+		],
+		"promotions": ["Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Restored B-29",
+		"unitType": "Bomber",
+		"uniqueTo": "Boomers",
+		"replaces": "Horseman",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 50,
+		"range": 8,
+		"cost": 175,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Bomber",
+		"uniques": [
+			"Only available <if [Nellis Air Base] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
 ]

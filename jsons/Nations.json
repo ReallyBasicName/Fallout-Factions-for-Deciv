@@ -1,5 +1,5 @@
 [
-	{
+	/*{
 		"name": "The Enclave",
 		"leaderName": "Dick Richardson",
 		"adjective": ["Enclave"],
@@ -8,8 +8,8 @@
 		//"personality": "Enclave",
 		//"favoredReligion": "",
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Did you know, there are those amongst us who would shatter our hopes for peace, order, and security? These radical malcontents don't care about you. They don't care about America! All they care about is fulfilling their own selfish desires. Let's take a tally of these agitators, shall we? There are, of course, the raiders. Those anarchistic ruffians who roam the wastes, preying on any and all, stealing, murdering. The so-called 'Brotherhood of Steel.' Now, don't be fooled by their pseudo-knightly nonsense or supposed connections to the United States Army. These... power-armored boy scouts are nothing more than common criminals with access to some antiquated technology. Criminals who have had the audacity to claim this country's most important military installation, the Pentagon, as their own personal clubhouse! And don't be fooled, America. Those who have left the Brotherhood of Steel, branded Outcasts, are just as dangerous; even more so, being in exile. And what about the slavers of Paradise Falls? The frighteningly irradiated ghouls of Underworld? And last but not least, the hideously mutated super mutants that have completely overrun the entire downtown D.C. area.",
+		"startIntroPart2": "Lawlessness, terror, murder. They're all around us, I know. I know. But not for long, sweet America. Not for long. Oh no. The Enclave will restore peace, order, and prosperity to this great nation. And those who oppose us will be… removed. Forever.",
 		
 		"declaringWar": "",
 		"attacked": "",
@@ -44,8 +44,8 @@
 			""
 			]
         "spyNames": ["Kreger", "Moreno", "Gannon", "Johnson", "Henry", "Dornan", "Curling", "Autumn", "Whitman","Augustus"]
-	},
-	{
+	},*/
+	/*{
 		"name": "Caeser's Legion",
 		"leaderName": "Caeser",
 		"adjective": ["Legion"],
@@ -62,7 +62,7 @@
 		"defeated": "",
 		"introduction": "",
 		
-		"neutralHello": "",
+		"neutralHello": "Ave.",
 		"hateHello": "",
 		"tradeRequest": "",
 		
@@ -90,8 +90,8 @@
 			""
 			]
         "spyNames": ["Vulpes", "Silus", "Picus", "Lucius", "Ulysses", "Atticus", "Dead Sea", "Hostillius", "Aurelius","Alexus"]
-	}
-	{
+	},*/
+	/*{
 		"name": "New California Republic",
 		"leaderName": "Aaron Kimball",
 		"adjective": ["NCR"],
@@ -120,24 +120,24 @@
 			]
 		"cities": [
 			"Shady Sands",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			""
+			"Boneyard",
+			"Dayglow",
+			"Vault City",
+			"Camp McCarran",
+			"Junktown",
+			"Redding",
+			"Boulder City",
+			"Maxson",
+			"Klamath",
+			"Camp Golf",
+			"Bitter Springs",
+			"Primm",
+			"Camp Searchlight",
+			"Nipton"
 			]
-        "spyNames": ["", "", "", "", "", "", "", "", "",""]
-	}
-	{
+        "spyNames": ["Hanlon", "Moore", "Oliver", "Hsu", "Crocker", "Seth", "Aradesh", "Sterling", "Dhatri","Boone"]
+	},*/
+	/*{
 		"name": "Brotherhood of Steel",
 		"leaderName": "Elder Maxson",
 		"adjective": ["Brotherhood"],
@@ -182,8 +182,8 @@
 			""
 			]
         "spyNames": ["", "", "", "", "", "", "", "", "",""]
-	}
-	{
+	},*/
+	/*{
 		"name": "Commonwealth Minutemen",
 		"leaderName": "Preton Garvey",
 		"adjective": ["Minutemen"],
@@ -228,8 +228,8 @@
 			""
 			]
         "spyNames": ["", "", "", "", "", "", "", "", "",""]
-	}
-	{
+	},*/
+	/*{
 		"name": "The Institute",
 		"leaderName": "Father",
 		"adjective": ["Institute"],
@@ -255,32 +255,20 @@
 		"style": "",
 		"uniqueName": "TBD",
 		"uniques": [
+			"Cannot build [Civilian Convoy] units"
 			]
 		"cities": [
 			"The Institute",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
 			""
 			]
         "spyNames": ["X4-18", "X6-88", "X9-27", "Z2-47", "X1-02", "X1-91", "X3-24", "X5-76", "X6-55","X7-55"]
-	}
+	},*/
 	{
 		"name": "New Vegas",
 		"leaderName": "Mr. House",
 		"adjective": ["New Vegas"],
 		"startBias": ["Desert"],
-		//"preferredVictoryType": "",
+		"preferredVictoryType": "Transmission",
 		//"personality": "",
 		//"favoredReligion": "",
 		
@@ -299,27 +287,20 @@
 		"outerColor": [19,45,24],
 		"innerColor": [94,124,98],
 		"style": "",
-		"uniqueName": "TBD",
+		"uniqueName": "The House Always Wins",
 		"uniques": [
+			"May not annex cities",
+			"Cannot build [Civilian Convoy] units",
+			"[+1 Happiness] per every [50] [Gold]",
+			"[+2 Happiness] per every [250] [Gold]",
+			"Double quantity of [Encrypted Data] produced",
+			"[Automated] units gain the [Dead Man's Hand] promotion",
 			]
 		"cities": [
 			"New Vegas",
-			"Freeside",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			""
+			"Freeside"
 			]
-        "spyNames": ["", "", "", "", "", "", "", "", "",""]
+        "spyNames": ["Mr. New Vegas", "Cachino", "Nero", "Big Sal", "Benny", "Swank", "Courier 6", "Victor", "Marilyn","Jane"]
 	}
 
 
@@ -330,13 +311,29 @@
 		"cityStateType": "Weapons",
 		"style": "",
 		"uniques": [
+			"Double quantity of [Weapons] produced",
+			"Double quantity of [Oil] produced"
 			]
 		"declaringWar": "",
 		"attacked": "",
 		"defeated": "",		
-		"outerColor": [0,0,0],
+		"outerColor": [67,107,124],
 		"innerColor": [238,234,102],
 		"cities": ["Nellis Air Force Base"]
+	},
+	{
+		"name": "The Railroad",
+		"adjective": ["Railroad"],
+		"cityStateType": "Culture",
+		"style": "",
+		"uniques": [
+			]
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",		
+		"outerColor": [172,149,20],
+		"innerColor": [255,255,255],
+		"cities": ["Old North Church"]
 	},
 	{
 		"name": "People's Liberation Army",
@@ -353,4 +350,18 @@
 		"cities": ["Chinese Occupied Refinery"]
 	},
 
+	{
+		"name": "Shi",
+		"adjective": ["Shi"],
+		"cityStateType": "Research",
+		"style": "",
+		"uniques": [
+			]
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",		
+		"outerColor": [0,0,0],
+		"innerColor": [228,148,43],
+		"cities": ["Steel Palace"]
+	},
 ]

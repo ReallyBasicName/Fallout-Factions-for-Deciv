@@ -1,3 +1,81 @@
 [
+	////Majors
+	//New Vegas
+	{
+		"name": "Lucky 38",
+		"isWonder": true,
+		"uniqueTo": "New Vegas",
+		"culture": 1,
+		"gold": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Encrypted Data]"
+			"[1] free [Securitron Mk I] units appear",
+			"Gain a free [Food Store] [in this city]",
+			"Can only be built <in [Capital] cities>"
+		],
+		"quote": "You see that you and I are of a different stripe, don't you? We don't have to dream that we're important. We are.",
+	}, 
+	{
+		"name": "Vegas Casino",
+		"uniqueTo": "New Vegas",
+		"replaces": "Market",
+		"specialistSlots": { "Merchant": 2 },
+		"percentStatBonus": {"gold": 5},
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"happiness": 1,
+		"gold": 2,
+		"uniques": [
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+			"[+1 Happiness] per [5] population [in this city]",
+		]
+	},
+	{
+		"name": "Gomorrah",
+		"uniqueTo": "New Vegas",
+		"happiness": 2,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": { "happiness": 10 },
+		"uniques": [
+			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Capital] cities>"
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Ultra-Luxe",
+		"uniqueTo": "New Vegas",
+		"gold": 2,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": { "gold": 10 },
+		"uniques": [
+			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Capital] cities>"
+		],
+		"requiredTech": "Currency"
+	},
+	////City-States
+	//Boomers
+	{
+		"name": "Nellis Air Base",
+		"uniqueTo": "Boomers",
+		"production": 2,
+		"gold": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Oil]"
+			"Provides [1] [Power]"
+			"Provides [1] [Weapons]"
+			"[1] free [Restored B-29] units appear",
+			"[1] free [Restored Howitzer] units appear",
+		],
+		"requiredTech": "The Wheel"
+	},
+	
 
 ]

@@ -1,3 +1,10 @@
 [
+	{
+		"name": "Dead Man's Hand",
+		"uniques": [
+			"Earn [25]% of killed [Military] unit's [Cost] as [Gold]",
+			"[+20]% Strength decreasing with distance from the capital"
+			]
+	},
 
 ]

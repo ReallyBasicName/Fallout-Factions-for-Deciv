@@ -44,6 +44,7 @@
 		"isNationalWonder": true,
 		"percentStatBonus": {"happiness": 10},
 		"uniques": [
+			"[1] free [Nero] units appear",
 			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Capital] cities>",
@@ -61,6 +62,7 @@
 		"isNationalWonder": true,
 		"percentStatBonus": {"happiness": 5, "gold": 5},
 		"uniques": [
+			"[1] free [Benny] units appear",
 			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Capital] cities>",
@@ -77,6 +79,7 @@
 		"isNationalWonder": true,
 		"percentStatBonus": { "gold": 10 },
 		"uniques": [
+			"[1] free [Marjorie] units appear",
 			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Capital] cities>",
@@ -109,7 +112,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+1 Culture, +1 Happiness, +1 Food] per [9] population [in all cities]",
+			"[+1 Culture, +1 Happiness, +1 Food] per [5] population [in all cities]",
 			"[+5]% growth [in all cities]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
@@ -128,7 +131,7 @@
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+3 Culture] per [10] population [in all cities]",
+			"[+2 Culture] per [6] population [in all cities]",
 			"[+15]% Production when constructing [All] buildings [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
@@ -144,7 +147,7 @@
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+3 Happiness] per [10] population [in all cities]",
+			"[+2 Happiness] per [6] population [in all cities]",
 			"[+15]% growth [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
@@ -160,7 +163,7 @@
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+3 Food] per [10] population [in all cities]",
+			"[+2 Food] per [6] population [in all cities]",
 			"[-15]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",

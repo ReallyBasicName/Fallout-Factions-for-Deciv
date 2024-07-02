@@ -1,6 +1,29 @@
 [
 	////Majors
 	//New Vegas
+	/*{
+	//Will be added as a hero type unit when enough nations have them
+		"name": "Courier 6",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 60,
+		"interceptRange": 1,
+		"cost": 280,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Never appears as a Barbarian unit",
+			"May Paradrop up to [4] tiles from inside friendly territory",
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [2] [Weapons]",
+			"Limited to [1] per Civilization"
+		],
+		"promotions": [
+			"Gas Mask"
+		],
+		"attackSound": "44"
+	},*/
 	{
 		"name": "Securitron Mk I",
 		"unitType": "Shooter",
@@ -119,6 +142,155 @@
 		],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Benny",
+		"unitType": "Civilian",
+		"uniqueTo": "New Vegas",
+		"uniques": [
+			"Chairman",
+			"[+15]% Strength bonus for [Chairman] units within [2] tiles",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"text": "Truth is, the game was rigged from the start."
+			}
+		]
+	},
+	{
+		"name": "Chairman Guard",
+		"unitType": "Scrapper",
+		"uniqueTo": "New Vegas",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Chairman Bodyguard",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Chairman",
+			"Consumes [1] [Weapons]"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Chairman Bodyguard",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 230,
+		"requiredTech": "Plastics",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Chairman",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Nero",
+		"unitType": "Civilian",
+		"uniqueTo": "New Vegas",
+		"uniques": [
+			"Omerta",
+			"[+15]% Strength bonus for [Omerta] units within [2] tiles",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Omerta Thug",
+		"unitType": "Scrapper",
+		"uniqueTo": "New Vegas",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Made Man",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Omerta",
+			"Consumes [1] [Weapons]"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Made Man",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 230,
+		"requiredTech": "Plastics",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Omerta",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Marjorie",
+		"unitType": "Civilian",
+		"uniqueTo": "New Vegas",
+		"uniques": [
+			"White Glove",
+			"[+15]% Strength bonus for [White Glove] units within [2] tiles",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "White Glove Bouncer",
+		"unitType": "Scrapper",
+		"uniqueTo": "New Vegas",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Rifling",
+		"upgradesTo": "White Glove Assassin",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"White Glove",
+			"Consumes [1] [Weapons]"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "White Glove Assassin",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 230,
+		"requiredTech": "Plastics",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"White Glove",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
 	//Brotherhood of Steel
 	{
 		"name": "Liberty Prime",
@@ -164,6 +336,29 @@
 		"attackSound": "shipguns"
 	},
 	////City-States
+	//Arroyo
+	/*{
+		"name": "The Chosen One",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 280,
+		"requiredTech": "Rifling",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Never appears as a Barbarian unit",
+			"May Paradrop up to [4] tiles from inside friendly territory",
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [2] [Weapons]",
+			"Limited to [1] per Civilization"
+		],
+		"promotions": [
+			"Gas Mask"
+		],
+		"attackSound": "44"
+	},*/
 	//Boomers
 	{
 		"name": "Restored Howitzer",

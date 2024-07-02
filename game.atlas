@@ -13,7 +13,7 @@ BuildingIcons/Lucky 38
   index: -1
 NationIcons/Boomers
   rotate: false
-  xy: 1252, 111
+  xy: 1252, 91
   size: 171, 171
   orig: 171, 171
   offset: 0, 0
@@ -83,9 +83,16 @@ NationIcons/The Railroad
   index: -1
 NationIcons/The Unity
   rotate: false
-  xy: 1440, 370
+  xy: 1460, 370
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Zion
+  rotate: false
+  xy: 1252, 270
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
 NationPortraits/New California Republic
@@ -104,58 +111,51 @@ NationPortraits/People's Liberation Army
   index: -1
 NationPortraits/The Unity
   rotate: false
-  xy: 1548, 370
+  xy: 1568, 370
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Restored Howitzer
   rotate: false
-  xy: 1252, 75
+  xy: 1460, 334
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Securitron Mk I
   rotate: false
-  xy: 1440, 334
+  xy: 1676, 442
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Securitron Mk II
   rotate: false
-  xy: 1440, 334
+  xy: 1676, 442
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Securitron Mk III
   rotate: false
-  xy: 1440, 334
+  xy: 1676, 442
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Securitron Mk IV
   rotate: false
-  xy: 1440, 334
+  xy: 1676, 442
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Securitron Mk V
   rotate: false
-  xy: 1440, 334
+  xy: 1676, 442
   size: 32, 28
   orig: 32, 28
-  offset: 0, 0
-  index: -1
-UnitPortraits/Securitron Mk I
-  rotate: false
-  xy: 1252, 290
-  size: 180, 180
-  orig: 180, 180
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dead Man's Hand

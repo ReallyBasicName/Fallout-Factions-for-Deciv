@@ -150,7 +150,8 @@
 			"Chairman",
 			"[+15]% Strength bonus for [Chairman] units within [2] tiles",
 			"Unbuildable",
-			"Uncapturable"
+			"Uncapturable",
+			"Limited to [1] per Civilization"
 		],
 		"movement": 2
 		"civilopediaText": [
@@ -180,8 +181,9 @@
 	{
 		"name": "Chairman Bodyguard",
 		"unitType": "Scrapper",
+		"uniqueTo": "New Vegas",
 		"movement": 2,
-		"strength": 45,
+		"strength": 50,
 		"interceptRange": 1,
 		"cost": 230,
 		"requiredTech": "Plastics",
@@ -203,7 +205,8 @@
 			"Omerta",
 			"[+15]% Strength bonus for [Omerta] units within [2] tiles",
 			"Unbuildable",
-			"Uncapturable"
+			"Uncapturable",
+			"Limited to [1] per Civilization"
 		],
 		"movement": 2
 	},
@@ -228,8 +231,9 @@
 	{
 		"name": "Made Man",
 		"unitType": "Scrapper",
+		"uniqueTo": "New Vegas",
 		"movement": 2,
-		"strength": 45,
+		"strength": 50,
 		"interceptRange": 1,
 		"cost": 230,
 		"requiredTech": "Plastics",
@@ -251,7 +255,8 @@
 			"White Glove",
 			"[+15]% Strength bonus for [White Glove] units within [2] tiles",
 			"Unbuildable",
-			"Uncapturable"
+			"Uncapturable",
+			"Limited to [1] per Civilization"
 		],
 		"movement": 2
 	},
@@ -276,8 +281,9 @@
 	{
 		"name": "White Glove Assassin",
 		"unitType": "Scrapper",
+		"uniqueTo": "New Vegas",
 		"movement": 2,
-		"strength": 45,
+		"strength": 50,
 		"interceptRange": 1,
 		"cost": 230,
 		"requiredTech": "Plastics",

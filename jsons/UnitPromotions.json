@@ -1,4 +1,48 @@
 [
+	//New Vegas
+	{
+		"name": "Hearts",
+		"uniques": [
+			"[+25]% Strength decreasing with distance from the capital"
+		]
+	},
+	{
+		"name": "Ace of Hearts",
+		"uniques": [
+			"[+20]% Strength <within [2] tiles of a [City center]>",
+		]
+	},
+	{
+		"name": "Clubs",
+		"uniques": [
+			"[-10]% Strength for enemy [Scrapper] units in adjacent [All] tiles",
+			"[-10]% Strength for enemy [Shooter] units in adjacent [All] tiles"
+		]
+	},
+	{
+		"name": "Ace of Clubs",
+		"uniques": [
+			"[+25]% Strength <vs [Wounded] units>"
+		]
+	},
+	{
+		"name": "Diamonds",
+		"uniques": [
+			"Heals [15] damage if it kills a unit"
+		]
+	},
+	{
+		"name": "Ace of Diamonds",
+		"uniques": [
+			"Invisible to non-adjacent units"
+		]
+	},
+	{
+		"name": "Ace of Spades",
+		"uniques": [
+			"Earn [50]% of killed [Military] unit's [Cost] as [Gold]",
+		]
+	},
 	{
 		"name": "Dead Man's Hand",
 		"uniques": [
@@ -6,6 +50,7 @@
 			"[+20]% Strength decreasing with distance from the capital"
 		]
 	},
+	//Brotherhood of Steel
 	{
 		"name": "Without Borders",
 		"uniques": [

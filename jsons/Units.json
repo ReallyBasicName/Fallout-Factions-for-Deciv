@@ -176,6 +176,7 @@
 			"Chairman",
 			"Consumes [1] [Weapons]"
 		],
+		"promotions": ["Hearts"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -194,7 +195,7 @@
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Weapons]"
 		],
-		"promotions": ["Gas Mask"],
+		"promotions": ["Gas Mask", "Hearts"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -226,6 +227,7 @@
 			"Omerta",
 			"Consumes [1] [Weapons]"
 		],
+		"promotions": ["Clubs"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -244,7 +246,7 @@
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Weapons]"
 		],
-		"promotions": ["Gas Mask"],
+		"promotions": ["Gas Mask", "Clubs"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -269,17 +271,18 @@
 		"interceptRange": 1,
 		"cost": 125,
 		"requiredTech": "Rifling",
-		"upgradesTo": "White Glove Assassin",
+		"upgradesTo": "White Glove Flamer",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
 			"White Glove",
 			"Consumes [1] [Weapons]"
 		],
+		"promotions": ["Diamonds"],
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "White Glove Assassin",
+		"name": "White Glove Flamer",
 		"unitType": "Scrapper",
 		"uniqueTo": "New Vegas",
 		"movement": 2,
@@ -294,7 +297,7 @@
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Weapons]"
 		],
-		"promotions": ["Gas Mask"],
+		"promotions": ["Gas Mask", "Diamonds"],
 		"attackSound": "machinegun"
 	},
 	//Brotherhood of Steel

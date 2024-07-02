@@ -116,6 +116,7 @@
 			"[+5]% growth [in all cities]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
+            "All newly-trained [Personnel] units [in this city] receive the [Ace of Spades] promotion"
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Chairman Advisatory Council]>",
@@ -133,6 +134,7 @@
 		"uniques": [
 			"[+2 Culture] per [6] population [in all cities]",
 			"[+15]% Production when constructing [All] buildings [in this city]",
+            "All newly-trained [Personnel] units [in this city] receive the [Ace of Hearts] promotion"
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Omertas Advisatory Council]>",
@@ -149,6 +151,7 @@
 		"uniques": [
 			"[+2 Happiness] per [6] population [in all cities]",
 			"[+15]% growth [in all cities]",
+            "All newly-trained [Personnel] units [in this city] receive the [Ace of Clubs] promotion"
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Chairman Advisatory Council]>",
@@ -165,6 +168,7 @@
 		"uniques": [
 			"[+2 Food] per [6] population [in all cities]",
 			"[-15]% Unhappiness from [Population] [in all cities]",
+            "All newly-trained [Personnel] units [in this city] receive the [Ace of Diamonds] promotion"
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Chairman Advisatory Council]>",

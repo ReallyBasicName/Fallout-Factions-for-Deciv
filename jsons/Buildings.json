@@ -22,6 +22,18 @@
 		]
 	},
 	{
+		"name": "Lucky 38 Reactor",
+		"uniqueTo": "New Vegas",
+		"requiredTech": "Education",
+		"production": 1,
+		"cost": 175,
+		"uniques": [
+			"Provides [2] [Power]",
+			"Can only be built <in [Capital] cities>",
+			"Only available <if [Lucky 38] is constructed>"
+		]
+	},
+	{
 		"name": "Vegas Casino",
 		"uniqueTo": "New Vegas",
 		"replaces": "Market",
@@ -33,7 +45,7 @@
 		"gold": 2,
 		"uniques": [
 			"[+1 Gold] from [Luxury resource] tiles [in this city]",
-			"[+1 Happiness] per [5] population [in this city]",
+			"[+1 Happiness] per [5] population [in this city]"
 		]
 	},
 	{
@@ -45,9 +57,11 @@
 		"percentStatBonus": {"happiness": 10},
 		"uniques": [
 			"[1] free [Nero] units appear",
+			"Provides [1] [Encrypted Data]",
+			"Doubles Gold given to enemy if city is captured",
 			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city",
-			"Can only be built <in [Capital] cities>",
+			"Cost increases by [50] per owned city",
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Only available <in cities without a [Ultra-Luxe]>",
 			"Only available <in cities without a [The Tops]>"
 		],
@@ -63,9 +77,11 @@
 		"percentStatBonus": {"happiness": 5, "gold": 5},
 		"uniques": [
 			"[1] free [Benny] units appear",
+			"Provides [1] [Encrypted Data]",
+			"Doubles Gold given to enemy if city is captured",
 			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city",
-			"Can only be built <in [Capital] cities>",
+			"Cost increases by [50] per owned city",
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Only available <in cities without a [Ultra-Luxe]>",
 			"Only available <in cities without a [Gomorrah]>"
 		],
@@ -80,9 +96,11 @@
 		"percentStatBonus": { "gold": 10 },
 		"uniques": [
 			"[1] free [Marjorie] units appear",
+			"Provides [1] [Encrypted Data]",
+			"Doubles Gold given to enemy if city is captured",
 			"Only available <if [Vegas Casino] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city",
-			"Can only be built <in [Capital] cities>",
+			"Cost increases by [50] per owned city",
+			"Can only be built <in [non-[Puppeted]] cities>",
 			"Only available <in cities without a [The Tops]>",
 			"Only available <in cities without a [Gomorrah]>"
 		],
@@ -116,7 +134,7 @@
 			"[+5]% growth [in all cities]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
-            "All newly-trained [Personnel] units [in this city] receive the [Ace of Spades] promotion"
+            "All newly-trained [Personnel] units [in this city] receive the [Ace of Spades] promotion",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Chairman Advisatory Council]>",
@@ -134,7 +152,7 @@
 		"uniques": [
 			"[+2 Culture] per [6] population [in all cities]",
 			"[+15]% Production when constructing [All] buildings [in this city]",
-            "All newly-trained [Personnel] units [in this city] receive the [Ace of Hearts] promotion"
+            "All newly-trained [Personnel] units [in this city] receive the [Ace of Hearts] promotion",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Omertas Advisatory Council]>",
@@ -151,7 +169,7 @@
 		"uniques": [
 			"[+2 Happiness] per [6] population [in all cities]",
 			"[+15]% growth [in all cities]",
-            "All newly-trained [Personnel] units [in this city] receive the [Ace of Clubs] promotion"
+            "All newly-trained [Personnel] units [in this city] receive the [Ace of Clubs] promotion",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Chairman Advisatory Council]>",
@@ -168,7 +186,7 @@
 		"uniques": [
 			"[+2 Food] per [6] population [in all cities]",
 			"[-15]% Unhappiness from [Population] [in all cities]",
-            "All newly-trained [Personnel] units [in this city] receive the [Ace of Diamonds] promotion"
+            "All newly-trained [Personnel] units [in this city] receive the [Ace of Diamonds] promotion",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Chairman Advisatory Council]>",
@@ -177,6 +195,28 @@
 			"Destroyed when the city is captured"
 		]
 
+	},
+	{
+		"name": "Recruit Wastelanders",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "New Vegas",
+		"production": 1,
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"Free [Gunman] appears",
+			"Provides [1] [Weapons]",
+			"Free [Civilian Convoy] appears"
+		]
+	},
+	{
+		"name": "NCR Embassy",
+		"uniqueTo": "New Vegas",
+		"gold": 1,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Provides [1] [Weapons]"
+		]
 	},
 	////City-States
 	//Boomers
@@ -195,4 +235,23 @@
 		],
 		"requiredTech": "The Wheel"
 	}
+	////Miscellaneous
+	{
+		"name": "Gun Runners",
+		"cost": 150,
+		"maintenance": 1,
+		"requiredTech": "Engineering",
+		"uniques": [
+			"Provides [1] [Weapons]"
+		]
+	},
+	{
+		"name": "Van Graffs",
+		"cost": 200,
+		"maintenance": 2,
+		"requiredTech": "Engineering",
+		"uniques": [
+			"Provides [2] [Weapons]"
+		]
+	},
 ]

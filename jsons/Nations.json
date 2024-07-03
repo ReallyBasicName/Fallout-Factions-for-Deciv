@@ -1,127 +1,5 @@
 [
 	/*{
-		"name": "The Enclave",
-		"leaderName": "Dick Richardson",
-		"adjective": ["Enclave"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
-		//"personality": "Enclave",
-		//"favoredReligion": "",
-		
-		"startIntroPart1": "Did you know, there are those amongst us who would shatter our hopes for peace, order, and security? These radical malcontents don't care about you. They don't care about America! All they care about is fulfilling their own selfish desires. Let's take a tally of these agitators, shall we? There are, of course, the raiders. Those anarchistic ruffians who roam the wastes, preying on any and all, stealing, murdering. The so-called 'Brotherhood of Steel.' Now, don't be fooled by their pseudo-knightly nonsense or supposed connections to the United States Army. These... power-armored boy scouts are nothing more than common criminals with access to some antiquated technology. Criminals who have had the audacity to claim this country's most important military installation, the Pentagon, as their own personal clubhouse! And don't be fooled, America. Those who have left the Brotherhood of Steel, branded Outcasts, are just as dangerous; even more so, being in exile. And what about the slavers of Paradise Falls? The frighteningly irradiated ghouls of Underworld? And last but not least, the hideously mutated super mutants that have completely overrun the entire downtown D.C. area.",
-		"startIntroPart2": "Lawlessness, terror, murder. They're all around us, I know. I know. But not for long, sweet America. Not for long. Oh no. The Enclave will restore peace, order, and prosperity to this great nation. And those who oppose us will be… removed. Forever.",
-		
-		"declaringWar": 
-		"attacked": 
-		"defeated": "This isn't over. Humanity will prevail.",
-		"introduction": "Hello there. I'm President Richardson, and I'm damn proud to meet you. I'm very curious to hear from a genuine mutant what life's like in that radioactive hell of yours.",
-		"neutralHello": 
-		"hateHello": 
-		"tradeRequest": 
-
-		"outerColor": [255, 255, 255],
-		"innerColor": [0, 0, 0],
-		"style": "Military",
-		"uniqueName": "Semper Fi",
-		"uniqueText": "Military buildings provide +2 Science. Missile units have 100% additional range.",
-		"uniques": [
-			"[+2 Science] from every [Barracks]",
-			"[+2 Science] from every [Armory]",
-			"[+2 Science] from every [Armaments Production Line]",
-			"[+2 Science] from every [Armor Production Line]",
-			"[+2 Science] from every [Aerospace Facility]",
-			"[+10] Range <for [Guided Missile] units>",
-			"[+8] Range <for [Tactical Nuke] units>",
-			"[+16] Range <for [Nuclear Missile] units>"
-		],
-		"cities": ["Navarro", "Control Station ENCLAVE", "Raven Rock", "Washington", "Chicago", "Adams AFB", "Mariposa", "Rockland",
-			"Fort Constantine", "Old Olney", "Wheaton", "Camp RHO", "Remnants Bunker", "Crater Camp", "Springvale", "Fairfax",
-			"Seward Square", "Arroyo", "Klamath", "Silver Peak"]
-        "spyNames": ["Kreger", "Moreno", "Gannon", "Johnson", "Henry", "Dornan", "Curling", "Autumn", "Whitman","Augustus"]
-	},*/
-	/*{
-		"name": "Caesar's Legion",
-		"leaderName": "Caesar",
-		"adjective": ["Legion"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
-		//"personality": "Caesar",
-		//"favoredReligion": "Cult of Mars",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "Losers don't matter in the history books. You're just another footnote.",
-		"attacked": "I warned you about the price of disobedience. I guess you weren't listening.",
-		"defeated": "You may have bested my Legatus, but I and my guards shall fight unto death! Praetorians, on me!",
-		"introduction": "So, you're the foreign leader my scouts have been telling me so much about. I assume you don't know who I am, or else you'd be kneeling already. I am Caesar, the Son of Mars and conqueror of 86 tribes. Kneel.",
-		"neutralHello": "Ave.",
-		"hateHello": "Now is the time to confess your crimes. Soon there will be no more forgiveness.",
-		"tradeRequest": "There are rewards for doing as I command. Today, I present you with this.",
-
-		"outerColor": [153, 5, 3],
-		"innerColor": [244, 232, 54],
-		"style": "Legion",
-		"uniqueName": "Conqueror of Eighty-Six Tribes",
-		"uniqueText": "Each time a city is conquered, the capital receives a 15% increase in Production for 5 turns. (Other effects TBD) Cannot build Automated or Purge Robot units.",
-		"uniques": [
-			"[+15]% Production [in capital] <for [5] turns> <upon conquering a city>",
-
-			"Cannot build [Automated] units",
-			"Cannot build [Purge Robot] units"
-		],
-		"cities": ["Flagstaff", "Fortification Hill", "Two Sun", "Denver", "Phoenix", "Dry Wells", "Cottonwood Cove", "Syracuse", "Malpais",
-			"Nelson", "Nipton", "Spanish Fork", "Yuma", "Willow Beach", "Bullhead City", "Circle Junction", "The Res", "Twin Mothers",
-			"Buena Vista", "Fort Abandon", "Techatticup"],
-        "spyNames": ["Vulpes", "Silus", "Picus", "Lucius", "Ulysses", "Atticus", "Dead Sea", "Hostillius", "Aurelius","Alexus"]
-	},*/
-	/*{
-		"name": "New California Republic",
-		"leaderName": "Aaron Kimball",
-		"adjective": ["NCR"],
-		"startBias": ["Desert"],
-		//"preferredVictoryType": "",
-		//"personality": "Aaron",
-		//"favoredReligion": "",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": "",
-		
-		"outerColor": [255,255,255],
-		"innerColor": [184,10,49],
-		"style": "",
-		"uniqueName": "TBD",
-		"uniques": [
-			]
-		"cities": [
-			"Shady Sands",
-			"Boneyard",
-			"Dayglow",
-			"Vault City",
-			"Camp McCarran",
-			"Junktown",
-			"Redding",
-			"Boulder City",
-			"Maxson",
-			"Klamath",
-			"Camp Golf",
-			"Bitter Springs",
-			"Primm",
-			"Camp Searchlight",
-			"Nipton"
-			]
-        "spyNames": ["Hanlon", "Moore", "Oliver", "Hsu", "Crocker", "Seth", "Aradesh", "Sterling", "Dhatri","Boone"]
-	},*/
-	/*{
 		"name": "Brotherhood of Steel",
 		"leaderName": "Elder Maxson",
 		"adjective": ["Brotherhood"],
@@ -162,47 +40,40 @@
 		"spyNames": ["Rhombus", "Klotz", "Sarah", "Danse", "Veronica", "Hardin", "Ramos", "Cabbot", "Dusk", "Christine"]
 	},*/
 	/*{
-		"name": "The Unity",
-		"leaderName": "The Master",
-		"adjective": "Unity",
-		"startBias": ["Jungle"],
+		"name": "Caesar's Legion",
+		"leaderName": "Caesar",
+		"adjective": ["Legion"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-		"personality": "Master",
-		"favoredReligion": "Children of the Cathedral",
-
-		// "startIntroPart1": "TBA",
-		// "startIntroPart2": "TBA",
-		"declaringWar": 
-		"attacked": 
-		"defeated": 
-		"introduction": 
-		"neutralHello": 
-		"hateHello": 
-		"tradeRequest": 
+		//"personality": "Caesar",
+		//"favoredReligion": "Cult of Mars",
 		
-		"outerColor": [173,38,38],
-		"innerColor": [0,0,0],
-		"style": 
-		"uniqueName": 
-		"uniques": [
-			//The concept is that they want to sink their happiness to the point where rebel units are spawning.
-			//They would gain bonuses which outweigh the penalties of very high Unhappiness.
-			//Rebels would be interpreted as Vaults being discovered and opening up, willingly or otherwise.
-			//These rebels could be captured and either forcibly added to the population of any settlements the Unity controls,
-			//or transformed into their unique varieties of Mutant units (Nightkin, Centaurs, Floaters, etc.).
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Losers don't matter in the history books. You're just another footnote.",
+		"attacked": "I warned you about the price of disobedience. I guess you weren't listening.",
+		"defeated": "You may have bested my Legatus, but I and my guards shall fight unto death! Praetorians, on me!",
+		"introduction": "So, you're the foreign leader my scouts have been telling me so much about. I assume you don't know who I am, or else you'd be kneeling already. I am Caesar, the Son of Mars and conqueror of 86 tribes. Kneel.",
+		"neutralHello": "Ave.",
+		"hateHello": "Now is the time to confess your crimes. Soon there will be no more forgiveness.",
+		"tradeRequest": "There are rewards for doing as I command. Today, I present you with this.",
 
-			"Rebel units may spawn",
-			"When defeating a [Military] unit, earn [25] Gold and recruit it <with [33]% chance>",
-			"[+100]% [Production] [in all cities] <when below [-10] Happiness>",
-			"Cannot build [Civilian Convoy] units",
-			
+		"outerColor": [153, 5, 3],
+		"innerColor": [244, 232, 54],
+		"style": "Legion",
+		"uniqueName": "Conqueror of Eighty-Six Tribes",
+		"uniqueText": "Each time a city is conquered, the capital receives a 15% increase in Production for 5 turns. (Other effects TBD) Cannot build Automated or Purge Robot units.",
+		"uniques": [
+			"[+15]% Production [in capital] <for [5] turns> <upon conquering a city>",
+
+			"Cannot build [Automated] units",
+			"Cannot build [Purge Robot] units"
 		],
-		"cities": [
-			"The Cathedral",
-			"Mariposa",
-			"Necropolis"
-		],
-		"spyNames": ["Lieutenant", "Morpheus", "Davison", "Tabitha", "Viscious", "Marcus", "Jeremiah", "Van Hagan", "Attis", "Gammorin"]
+		"cities": ["Flagstaff", "Fortification Hill", "Two Sun", "Denver", "Phoenix", "Dry Wells", "Cottonwood Cove", "Syracuse", "Malpais",
+			"Nelson", "Nipton", "Spanish Fork", "Yuma", "Willow Beach", "Bullhead City", "Circle Junction", "The Res", "Twin Mothers",
+			"Buena Vista", "Fort Abandon", "Techatticup"],
+        "spyNames": ["Vulpes", "Silus", "Picus", "Lucius", "Ulysses", "Atticus", "Dead Sea", "Hostillius", "Aurelius","Alexus"]
 	},*/
 	/*{
 		"name": "Commonwealth Minutemen",
@@ -256,40 +127,6 @@
 			"Diamond City"
 		]
         "spyNames": ["Sarge", "Becker", "McGann", "Shaw", "Hollis", "Nate", "Nora", "Sturges", "Savoldi", "Mama Murphy"]
-	},*/
-	/*{
-		"name": "The Institute",
-		"leaderName": "Father",
-		"adjective": ["Institute"],
-		"startBias": [],
-		"preferredVictoryType": "Scientific",
-		//"personality": "",
-		//"favoredReligion": "",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": "",
-		
-		"outerColor": [0,0,0],
-		"innerColor": [197,5,5],
-		"style": "",
-		"uniqueName": "TBD",
-		"uniques": [
-			"Cannot build [Civilian Convoy] units"
-			]
-		"cities": [
-			"The Institute",
-			""
-			]
-        "spyNames": ["X4-18", "X6-88", "X9-27", "Z2-47", "X1-02", "X1-91", "X3-24", "X5-76", "X6-55","X7-55"]
 	},*/
 	/*{
 		"name": "Great Khans",
@@ -347,6 +184,217 @@
         "spyNames": ["Oscar", "Regis", "Diane", "Jack", "Chance", "Jessup", "McMurphy", "Anders", "Melissa", "Manny"]
 	},*/
 	/*{
+		"name": "New California Republic",
+		"leaderName": "Aaron Kimball",
+		"adjective": ["NCR"],
+		"startBias": ["Desert"],
+		//"preferredVictoryType": "",
+		//"personality": "Aaron",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [255,255,255],
+		"innerColor": [184,10,49],
+		"style": "",
+		"uniqueName": "TBD",
+		"uniques": [
+			]
+		"cities": [
+			"Shady Sands",
+			"Boneyard",
+			"Dayglow",
+			"Vault City",
+			"Camp McCarran",
+			"Junktown",
+			"Redding",
+			"Boulder City",
+			"Maxson",
+			"Klamath",
+			"Camp Golf",
+			"Bitter Springs",
+			"Primm",
+			"Camp Searchlight",
+			"Nipton"
+			]
+        "spyNames": ["Hanlon", "Moore", "Oliver", "Hsu", "Crocker", "Seth", "Aradesh", "Sterling", "Dhatri","Boone"]
+	},*/
+	{
+		"name": "New Vegas",
+		"leaderName": "Mr. House",
+		"adjective": ["New Vegas"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Transmission",
+		//"personality": "House",
+		"favoredReligion": "Followers of the Apocalypse",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You laid the foundation for my victory, so fine - I'll permit myself some freedom in how to deal with you. I'm sure the assassins will wait for you to show up.",
+		"attacked": "I haven't shown my hand - I've shown one card. I've given my enemies a single, provocative datum upon which to fixate. They have no idea what other cards I'm holding. It's a strong hand, believe me - I dealt it to myself.",
+		"defeated": "May there be a hell for you... a TARTARUS... bleak, unending...",
+		"introduction": "This meeting has been a long time coming. I am Robert Edwin House, President, CEO, and sole proprietor of the New Vegas Strip.",
+    
+		"neutralHello": "Success depends on forethought, dispassionate calculation of probabilities, accounting for every stray variable.",
+		"neutralYes": "Yes, it's allowed.",
+		"neutralNo": "Absolutely not!",
+    
+		"hateHello": "Sorry to deny you a moment of private triumph, but you'll have to go elsewhere to sound your barbaric yawp.",
+		"hateYes": "Well, I accept your offer.",
+		"hateNo": "If you really thought that I would agree to this, then you are even more stupid than you look.",
+
+		"afterPeace": "I invite you to think carefully about what you do next... standing alone before me, surrounded by my heavily-armed guards.",
+		"tradeRequest": "I like to think that you have enough sense to make the right decision. The rewards for doing so are immense... as are the punishments for not doing so.",
+		
+		"outerColor": [19,45,24],
+		"innerColor": [94,124,98],
+		"style": "Corporate",
+		"uniqueName": "The House Always Wins",
+		"uniques": [
+			"May not annex cities",
+			"May buy items in puppet cities",
+			"Cannot build [Civilian Convoy] units",
+			"[+1 Happiness] per every [50] [Gold]",
+			"[+1 Happiness] per every [250] [Gold]",
+			"Double quantity of [Encrypted Data] produced",
+			"[Automated] units gain the [Dead Man's Hand] promotion"
+			]
+		"cities": [
+			"New Vegas",
+			"Freeside",
+			"Westside"
+		],
+        "spyNames": ["Mr. New Vegas", "Cachino", "Nero", "Big Sal", "Benny", "Swank", "Courier 6", "Victor", "Marilyn","Jane"]
+	},
+	/*{
+		"name": "The Enclave",
+		"leaderName": "Dick Richardson",
+		"adjective": ["Enclave"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Enclave",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "Did you know, there are those amongst us who would shatter our hopes for peace, order, and security? These radical malcontents don't care about you. They don't care about America! All they care about is fulfilling their own selfish desires. Let's take a tally of these agitators, shall we? There are, of course, the raiders. Those anarchistic ruffians who roam the wastes, preying on any and all, stealing, murdering. The so-called 'Brotherhood of Steel.' Now, don't be fooled by their pseudo-knightly nonsense or supposed connections to the United States Army. These... power-armored boy scouts are nothing more than common criminals with access to some antiquated technology. Criminals who have had the audacity to claim this country's most important military installation, the Pentagon, as their own personal clubhouse! And don't be fooled, America. Those who have left the Brotherhood of Steel, branded Outcasts, are just as dangerous; even more so, being in exile. And what about the slavers of Paradise Falls? The frighteningly irradiated ghouls of Underworld? And last but not least, the hideously mutated super mutants that have completely overrun the entire downtown D.C. area.",
+		"startIntroPart2": "Lawlessness, terror, murder. They're all around us, I know. I know. But not for long, sweet America. Not for long. Oh no. The Enclave will restore peace, order, and prosperity to this great nation. And those who oppose us will be… removed. Forever.",
+		
+		"declaringWar": 
+		"attacked": 
+		"defeated": "This isn't over. Humanity will prevail.",
+		"introduction": "Hello there. I'm President Richardson, and I'm damn proud to meet you. I'm very curious to hear from a genuine mutant what life's like in that radioactive hell of yours.",
+		"neutralHello": 
+		"hateHello": 
+		"tradeRequest": 
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [0, 0, 0],
+		"style": "Military",
+		"uniqueName": "Semper Fi",
+		"uniqueText": "Military buildings provide +2 Science. Missile units have 100% additional range.",
+		"uniques": [
+			"[+2 Science] from every [Barracks]",
+			"[+2 Science] from every [Armory]",
+			"[+2 Science] from every [Armaments Production Line]",
+			"[+2 Science] from every [Armor Production Line]",
+			"[+2 Science] from every [Aerospace Facility]",
+			"[+10] Range <for [Guided Missile] units>",
+			"[+8] Range <for [Tactical Nuke] units>",
+			"[+16] Range <for [Nuclear Missile] units>"
+		],
+		"cities": ["Navarro", "Control Station ENCLAVE", "Raven Rock", "Washington", "Chicago", "Adams AFB", "Mariposa", "Rockland",
+			"Fort Constantine", "Old Olney", "Wheaton", "Camp RHO", "Remnants Bunker", "Crater Camp", "Springvale", "Fairfax",
+			"Seward Square", "Arroyo", "Klamath", "Silver Peak"]
+        "spyNames": ["Kreger", "Moreno", "Gannon", "Johnson", "Henry", "Dornan", "Curling", "Autumn", "Whitman","Augustus"]
+	},*/
+	/*{
+		"name": "The Institute",
+		"leaderName": "Father",
+		"adjective": ["Institute"],
+		"startBias": [],
+		"preferredVictoryType": "Scientific",
+		//"personality": "",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [0,0,0],
+		"innerColor": [197,5,5],
+		"style": "",
+		"uniqueName": "TBD",
+		"uniques": [
+			"Cannot build [Civilian Convoy] units"
+			]
+		"cities": [
+			"The Institute",
+			""
+			]
+        "spyNames": ["X4-18", "X6-88", "X9-27", "Z2-47", "X1-02", "X1-91", "X3-24", "X5-76", "X6-55","X7-55"]
+	},*/
+	/*{
+		"name": "The Unity",
+		"leaderName": "The Master",
+		"adjective": "Unity",
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+		"personality": "Master",
+		"favoredReligion": "Children of the Cathedral",
+
+		// "startIntroPart1": "TBA",
+		// "startIntroPart2": "TBA",
+		"declaringWar": 
+		"attacked": 
+		"defeated": 
+		"introduction": 
+		"neutralHello": 
+		"hateHello": 
+		"tradeRequest": 
+		
+		"outerColor": [173,38,38],
+		"innerColor": [0,0,0],
+		"style": 
+		"uniqueName": 
+		"uniques": [
+			//The concept is that they want to sink their happiness to the point where rebel units are spawning.
+			//They would gain bonuses which outweigh the penalties of very high Unhappiness.
+			//Rebels would be interpreted as Vaults being discovered and opening up, willingly or otherwise.
+			//These rebels could be captured and either forcibly added to the population of any settlements the Unity controls,
+			//or transformed into their unique varieties of Mutant units (Nightkin, Centaurs, Floaters, etc.).
+
+			"Rebel units may spawn",
+			"When defeating a [Military] unit, earn [25] Gold and recruit it <with [33]% chance>",
+			"[+100]% [Production] [in all cities] <when below [-10] Happiness>",
+			"Cannot build [Civilian Convoy] units",
+			
+		],
+		"cities": [
+			"The Cathedral",
+			"Mariposa",
+			"Necropolis"
+		],
+		"spyNames": ["Lieutenant", "Morpheus", "Davison", "Tabitha", "Viscious", "Marcus", "Jeremiah", "Van Hagan", "Attis", "Gammorin"]
+	},*/
+	/*{
 		"name": "Zion",
 		"leaderName": "Joshua Graham",
 		"adjective": ["Zionite"],
@@ -388,54 +436,6 @@
 			"Old Rockville", "Crossroad Cavern", "Patriarchs' Court", "Dagger's Point"],
 		"spyNames": ["Follows-Chalk", "Daniel", "Mordecai", "Two-Bears-High-Fiving", "Clark", "Crawling Gecko", "Dancing Flame", "White Bird", "Quiet Shadow", "Waking Cloud"]
 	},*/
-	{
-		"name": "New Vegas",
-		"leaderName": "Mr. House",
-		"adjective": ["New Vegas"],
-		"startBias": ["Desert"],
-		"preferredVictoryType": "Transmission",
-		//"personality": "House",
-		"favoredReligion": "Followers of the Apocalypse",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "You laid the foundation for my victory, so fine - I'll permit myself some freedom in how to deal with you. I'm sure the assassins will wait for you to show up.",
-		"attacked": "I haven't shown my hand - I've shown one card. I've given my enemies a single, provocative datum upon which to fixate. They have no idea what other cards I'm holding. It's a strong hand, believe me - I dealt it to myself.",
-		"defeated": "May there be a hell for you... a TARTARUS... bleak, unending...",
-		"introduction": "This meeting has been a long time coming. I am Robert Edwin House, President, CEO, and sole proprietor of the New Vegas Strip.",
-    
-		"neutralHello": "Success depends on forethought, dispassionate calculation of probabilities, accounting for every stray variable.",
-		"neutralYes": "Yes, it's allowed.",
-		"neutralNo": "Absolutely not!",
-    
-		"hateHello": "Sorry to deny you a moment of private triumph, but you'll have to go elsewhere to sound your barbaric yawp.",
-		"hateYes": "Well, I accept your offer.",
-		"hateNo": "If you really thought that I would agree to this, then you are even more stupid than you look.",
-
-		"afterPeace": "I invite you to think carefully about what you do next... standing alone before me, surrounded by my heavily-armed guards.",
-		"tradeRequest": "I like to think that you have enough sense to make the right decision. The rewards for doing so are immense... as are the punishments for not doing so.",
-		
-		"outerColor": [19,45,24],
-		"innerColor": [94,124,98],
-		"style": "Corporate",
-		"uniqueName": "The House Always Wins",
-		"uniques": [
-			"May not annex cities",
-			"May buy items in puppet cities",
-			"Cannot build [Civilian Convoy] units",
-			"[+1 Happiness] per every [50] [Gold]",
-			"[+2 Happiness] per every [250] [Gold]",
-			"Double quantity of [Encrypted Data] produced",
-			"[Automated] units gain the [Dead Man's Hand] promotion"
-			]
-		"cities": [
-			"New Vegas",
-			"Freeside",
-			"Westside"
-		],
-        "spyNames": ["Mr. New Vegas", "Cachino", "Nero", "Big Sal", "Benny", "Swank", "Courier 6", "Victor", "Marilyn","Jane"]
-	},
 
 	// City-States
 	{
@@ -453,20 +453,6 @@
 		"outerColor": [67,107,124],
 		"innerColor": [238,234,102],
 		"cities": ["Nellis Air Force Base"]
-	},
-	{
-		"name": "The Railroad",
-		"adjective": ["Railroad"],
-		"cityStateType": "Culture",
-		"style": "",
-		"uniques": [
-			],
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",		
-		"outerColor": [163,141,19],
-		"innerColor": [255,255,255],
-		"cities": ["Old North Church"]
 	},
 	{
 		"name": "People's Liberation Army",
@@ -495,5 +481,19 @@
 		"outerColor": [0,0,0],
 		"innerColor": [228,148,43],
 		"cities": ["Steel Palace"]
+	},
+	{
+		"name": "The Railroad",
+		"adjective": ["Railroad"],
+		"cityStateType": "Culture",
+		"style": "",
+		"uniques": [
+			],
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",		
+		"outerColor": [163,141,19],
+		"innerColor": [255,255,255],
+		"cities": ["Old North Church"]
 	}
 ]

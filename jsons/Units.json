@@ -26,17 +26,15 @@
 	},*/
 	{
 		"name": "Securitron Mk I",
-		"unitType": "Shooter",
+		"unitType": "Scrapper",
 		"uniqueTo": "New Vegas",
-		"replaces": "Gunman",
+		"replaces": "Militia",
 		"range": 1,
 		"movement": 3,
-		"strength": 30,
-		"rangedStrength": 24,
-		"interceptRange": 1,
+		"strength": 35,
 		"cost": 60,
 		"requiredTech": "The Wheel",
-		"obsoleteTech": "Replaceable Parts",
+		"obsoleteTech": "Rifling",
 		"upgradesTo": "Securitron Mk II",
 		"hurryCostModifier": 20,
 		"uniques": [
@@ -44,42 +42,57 @@
 			"Automated",
 			"Consumes [1] [Encrypted Data]"
 		],
-		"attackSound": "shot"
+		"attackSound": "laserg"
 	},
 	{
 		"name": "Securitron Mk II",
-		"unitType": "Shooter",
+		"unitType": "Scrapper",
 		"uniqueTo": "New Vegas",
-		"replaces": "Rifleman",
 		"range": 1,
 		"movement": 3,
-		"strength": 35,
-		"rangedStrength": 30,
-		"interceptRange": 1,
+		"strength": 40,
+		"cost": 75,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Securitron Mk III",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Automated",
+			"Consumes [1] [Encrypted Data]"
+		],
+		"attackSound": "laserg"
+	},
+	{
+		"name": "Securitron Mk III",
+		"unitType": "Shooter",
+		"uniqueTo": "New Vegas",
+		"replaces": "Soldier",
+		"range": 1,
+		"movement": 3,
+		"strength": 45,
 		"cost": 120,
 		"requiredTech": "Rifling",
-		"upgradesTo": "Securitron Mk III",
+		"upgradesTo": "Securitron Mk IV",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
 			"Automated",
 			 "Consumes [1] [Encrypted Data]"
 		],
-		"attackSound": "shot"
+		"attackSound": "laserg"
 	},
 	{
-		"name": "Securitron Mk III",
-		"unitType": "Shooter",
+		"name": "Securitron Mk IV",
+		"unitType": "Scrapper",
 		"uniqueTo": "New Vegas",
-		"replaces": "Marksman",
+		"replaces": "Infantry",
 		"range": 1,
 		"movement": 3,
-		"strength": 40,
-		"rangedStrength": 35,
-		"interceptRange": 1,
+		"strength": 50,
 		"cost": 125,
 		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Securitron Mk IV",
+		"upgradesTo": "Securitron Mk V",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
@@ -87,41 +100,38 @@
 			"Consumes [1] [Encrypted Data]"
 		],
 		"promotions": ["Reconnaissance I"],
-		"attackSound": "shot"
+		"attackSound": "laserg"
 	},
 	{
-		"name": "Securitron Mk IV",
-		"unitType": "Shooter",
+		"name": "Securitron Mk V",
+		"unitType": "Scrapper",
 		"uniqueTo": "New Vegas",
-		"replaces": "NBC Marksman",
+		"replaces": "NBC Infantry",
 		"range": 1,
 		"movement": 3,
-		"strength": 40,
-		"rangedStrength": 35,
-		"interceptRange": 1,
-		"cost": 225,
+		"strength": 50,
+		"cost": 240,
 		"requiredTech": "Plastics",
-		"upgradesTo": "Securitron Mk V",
+		"upgradesTo": "Securitron Mk VI",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
 			"Automated",
-			"Only available <if [Factory] is constructed>",
+			"Only available <if [New Vegas Steel] is constructed>",
 			"Consumes [1] [Encrypted Data]"
 		],
 		"promotions": ["Reconnaissance I", "Gas Mask"],
-		"attackSound": "shot"
+		"attackSound": "laserg"
 	},
 	{
-		"name": "Securitron Mk V",
-		"unitType": "Shooter",
+		"name": "Securitron Mk VI",
+		"unitType": "Scrapper",
 		"uniqueTo": "New Vegas",
-		"replaces": "Black Ops",
+		"replaces": "Exo-Trooper",
+		"range": 1,
 		"range": 2,
 		"movement": 3,
-		"strength": 50,
-		"rangedStrength": 45,
-		"interceptRange": 1,
+		"strength": 65,
 		"cost": 300,
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 20,		
@@ -131,7 +141,6 @@
 			"Only available <if [Automated Factory] is constructed>",
 			"May Paradrop up to [4] tiles from inside friendly territory",
 			"Consumes [2] [Encrypted Data]",
-			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
 			"Drone Recon",
@@ -140,7 +149,7 @@
 			"Thermoptic Camouflage",
 			"Infantry Weapons"
 		],
-		"attackSound": "shot"
+		"attackSound": "laserg"
 	},
 	{
 		"name": "Benny",
@@ -168,7 +177,7 @@
 		"strength": 45,
 		"interceptRange": 1,
 		"cost": 125,
-		"requiredTech": "Replaceable Parts",
+		"requiredTech": "Rifling",
 		"upgradesTo": "Chairman Bodyguard",
 		"hurryCostModifier": 20,
 		"uniques": [
@@ -177,7 +186,7 @@
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": ["Hearts"],
-		"attackSound": "machinegun"
+		"attackSound": "22p"
 	},
 	{
 		"name": "Chairman Bodyguard",
@@ -196,7 +205,7 @@
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": ["Gas Mask", "Hearts"],
-		"attackSound": "machinegun"
+		"attackSound": "22s"
 	},
 	{
 		"name": "Nero",

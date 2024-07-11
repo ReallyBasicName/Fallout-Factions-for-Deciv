@@ -5,6 +5,6 @@
 ### Unit Icons
 	
 ### Building Icons
-	
+- Lucky 38: [Tower](https://thenounproject.com/icon/tower-167369/) By Chris Markhing
 ### Promotion Icons
-- Dead Man' Hand: [Playing Cards](https://thenounproject.com/icon/playing-cards-1453991/) By Georgiana Ionescu
+- Dead Man's Hand: [Playing Cards](https://thenounproject.com/icon/playing-cards-1453991/) By Georgiana Ionescu

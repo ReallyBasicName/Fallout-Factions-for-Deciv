@@ -1,10 +1,9 @@
 	
-	Cities: https://civilization-v-customisation.fandom.com/wiki/Civilization_V_Customisation_Wiki
-Nations
-	New California Republic Icon: https://thenounproject.com/icon/california-bear-86499/
-Units
+### Nation Icons
+- New California Republic Icon: [California Bear](https://thenounproject.com/icon/california-bear-86499/) By Leonardo Schneider
+### Unit Icons
 	
-Buildings
+### Building Icons
 	
-Promotions
-	Dead Man' Hand: https://thenounproject.com/icon/playing-cards-1453991/
+### Promotion Icons
+	Dead Man' Hand: [Playing Cards](https://thenounproject.com/icon/playing-cards-1453991/) By Georgiana Ionescu

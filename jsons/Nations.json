@@ -425,8 +425,6 @@
 		"hateHello": "If you harm any of my people, I will find you. Make no mistake. God willing, you will not leave this valley.",
 		"afterPeace": "Waging war against good people is bad for the soul.",
 		"tradeRequest": "We are happy to share with you anything you might need.",
-		//Current dialogue aside from the declaring war line is identical to the playable version of Deseret Nation in "Outlaws of the Wastes" - because its leader is based on Joshua Graham.
-		//If this mod is to allow Zion and Deseret to spawn in the same game, the above lines may need to be changed.
 
 		"outerColor": [191, 128, 6],
 		"innerColor": [252, 255, 218],

@@ -1,0 +1,8 @@
+{
+	"name": "Global uniques",
+	"uniques": [
+		//"[3] free [Zetan] units appear <for [Barbarians]>",
+		//"Triggers a [Zetan Scouts!] event <for [Major]> <upon turn end> <with [100]% chance>",
+		"Triggers a [A Mysterious Stranger] event <for [Human player]> <upon turn end> <with [3]% chance> <when at war>"
+	]
+}

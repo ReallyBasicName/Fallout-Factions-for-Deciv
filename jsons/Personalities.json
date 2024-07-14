@@ -42,7 +42,36 @@
 		"civilopediaText": [
 			{"text": "."}
 		]
+	},*/
+	{
+		"name": "Caesar",
+		"production": 8,
+		"food": 5,
+		"gold": 7,
+		"science": 6,
+		"culture": 5,
+		"happiness": 5,
+		"faith": 6,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 8,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 0,
+		"expansion": 7,
+		"priorities": {
+			"Adaptation": 20,
+			"Expansionism": 30,
+			"Sovereignty": 40,
+			"Theocracy": 30,
+			"Rationalism": 10,
+			"Constitution": 0,
+			"Supremacy": 50,
+			"Monopoly": 0,
+			"Collectivism": 40,
+			"Naturalism": 0,
+			"Mechanization": 40,
+			"Bionics": 0,
+		}
 	},
-	*/
-
 ]

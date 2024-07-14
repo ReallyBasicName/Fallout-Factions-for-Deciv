@@ -1,5 +1,321 @@
 [
 	////Majors
+	//Caesar's Legion
+	/*{
+		"name": "Legate Lanius",
+		"unitType": "Scrapper",
+		"uniqueTo": "Caesar's Legion",
+		"movement": 2,
+		"strength": 60,
+		"cost": 75,
+		"requiredTech": "Steel",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Limited to [1] per Civilization"
+		],
+		"attackSound": "shot"
+	},*/
+	{
+		"name": "Explorer",
+		"unitType": "Scout",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Scout",
+		"movement": 3,
+		"strength": 12,
+		"cost": 25,
+		"upgradesTo": "Gunman",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"[-50]% Strength <vs cities>",
+			"Unable to capture cities"
+		],
+		"promotions": ["Reconnaissance I", "Skirmish"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Recruit Legionary",
+		"unitType": "Scrapper",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Machete",
+		"movement": 2,
+		"strength": 24,
+		"cost": 50,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Militia",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Veteran Legionary",
+		"unitType": "Scrapper",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Militia",
+		"movement": 2,
+		"strength": 32,
+		"interceptRange": 1,
+		"cost": 55,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Low Tech"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Recruit Decanus",
+		"unitType": "Scrapper",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Soldier",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 120,
+		"upgradesTo": "Infantry",
+		"hurryCostModifier": 20,
+		"requiredTech": "Rifling",
+		"uniques": [
+			"Low Tech"
+		],
+		"promotions": ["Legion Assault"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Veteran Decanus",
+		"unitType": "Scrapper",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 42,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NBC Infantry",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel", 
+			"Only available <if [Blacksmith] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Legion Assault","Terrifying Presence"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Centurion",
+		"unitType": "Scrapper",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "NBC Infantry",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 230,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Exo-Trooper",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Blacksmith] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask","Legion Assault","Terrifying Presence"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Praetorian Guard",
+		"unitType": "Scrapper",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 230,
+		"requiredTech": "Plastics",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"[+25]% Strength decreasing with distance from the capital"
+			"Only available <if [Blacksmith] is constructed>",
+			"Limited to [4] per Civilization"
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask","Legion Assault","Terrifying Presence"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Vexillarius",
+		"unitType": "Scrapper",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Great General",
+		"strength": 35,
+		"uniques": [
+			"Empire enters a [6]-turn Golden Age <by consuming this unit>",
+			"[+20]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Slave Runner",
+		"unitType": "Scrapper",
+		"uniqueTo": "Caesar's Legion",
+		"strength": 38,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Cannon",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 18,
+		"cost": 100,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Munitions",
+		"uniques": [
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Slave Trader",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	//Commonwealth Minutemen
+	{
+		"name": "Preston Garvey",
+		"unitType": "Shooter",
+		"uniqueTo": "Commonwealth Minutemen",
+		"range": 1,
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"[-40]% Strength <before discovering [Computers]>",
+			"Consumes [1] [Weapons]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"promotions": ["Reconnaissance I", "Settlement Helper", "Urban Warfare I"],
+		"attackSound": "lm"
+	},
+	{
+		"name": "Minuteman",
+		"unitType": "Shooter",
+		"uniqueTo": "Commonwealth Minutemen",
+		"replaces": "Gunman",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 60,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Rifleman",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Reconnaissance I", "Guerilla Warfare I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Laser Musketman",
+		"unitType": "Shooter",
+		"uniqueTo": "Commonwealth Minutemen",
+		"replaces": "Marksman",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NBC Marksman",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Reconnaissance I"],
+		"attackSound": "lm"
+	},
+	{
+		"name": "Minuteman General",
+		"unitType": "Shooter",
+		"uniqueTo": "Commonwealth Minutemen",
+		"replaces": "Great General",
+		"range": 2,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"attackSound": "lm"
+	},
+	{
+		"name": "Mortar",
+		"unitType": "Siege",
+		"uniqueTo": "Commonwealth Minutemen",
+		"replaces": "Rocket Artillery",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 45,
+		"range": 4,
+		"cost": 400,
+		"requiredTech": "Rocketry",
+		"uniques": [
+			"[+100]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-50]% Strength <vs [Helicopter] units>",
+			"[-1] Sight",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]",
+		],
+		"promotions": ["Artillery"],
+		"hurryCostModifier": 20,
+		"attackSound": "artillery"
+	},
 	//New Vegas
 	/*{
 	//Will be added as a hero type unit when enough nations have them
@@ -497,5 +813,53 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
-	}
+	},
+	////Miscellaneous
+	{
+		"name": "Mysterious Stranger",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 36,
+		"rangedStrength": 36,
+		"range": 1,
+		"cost": 25000,
+		"uniques": [
+			"Unbuildable"
+			"Self-destructs when attacking",
+			"[+100]% Strength <when attacking>",
+			"[-100]% Strength <vs cities> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "ms"
+	},
+	{
+		"name": "Zetan Scout",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 45,
+		"range": 1,
+		"uniques": [
+			"Unbuildable"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "za"
+	},
+	{
+		"name": "Super Mutant Suicider",
+		"unitType": "Shooter",
+		"uniqueTo": "Barbarians"
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 36,
+		"range": 1,
+		"cost": 200,
+		"requiredTech": "Rifling",
+		"uniques": [
+			"Self-destructs when attacking",
+			"[+100]% Strength <when attacking>",
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "mutants"
+	},
 ]

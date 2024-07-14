@@ -1,5 +1,19 @@
 [
 	{
+		"name": "Fusion Core",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"production": 1,
+		"improvedBy": ["Salvage site", "Borough"],
+		"improvementStats": { "production": 1, "science": 1},
+		"uniques": [
+			"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
+			"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
+		],
+		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
+	},
+	{
 		"name": "Chems",
 		"resourceType": "Luxury",
 		"happiness": 1

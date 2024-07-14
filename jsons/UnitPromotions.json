@@ -1,4 +1,38 @@
 [
+	//Caesar's Legion
+	{
+		"name": "Legion Assault"
+		"uniques": [
+			"[+10]% Strength <when attacking>",
+		]
+	},
+	{
+		"name": "Terrifying Presence"
+		"uniques": [
+			"[+20]% Strength <vs [Wounded] units>"
+		]
+	},
+	//Commonwealth Minutemen
+	{
+		"name": "Minute's Notice",
+		"uniques": [
+			"Can move immediately once bought"
+			]
+	},
+	{
+		"name": "Settlement Helper"
+		"uniques": [
+			"Gain [5]-[15] [Gold] <upon ending a turn in a [Borough] tile>",
+			"Gain [-15]-[30] [Gold] <upon ending a turn in a [Settlement] tile>"
+		]
+	},
+	//Brotherhood of Steel
+	{
+		"name": "Without Borders",
+		"uniques": [
+			"May enter foreign tiles without open borders"
+		]
+	}
 	//New Vegas
 	{
 		"name": "Hearts",
@@ -50,11 +84,4 @@
 			"[+20]% Strength decreasing with distance from the capital"
 		]
 	},
-	//Brotherhood of Steel
-	{
-		"name": "Without Borders",
-		"uniques": [
-			"May enter foreign tiles without open borders"
-		]
-	}
 ]

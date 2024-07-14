@@ -1,0 +1,62 @@
+[
+	//Caesar's Legion
+	{
+		"name": "Slave Run!",
+		"text": "Ave, the Slaver's Guild has found a perfect location to raid, now it's up to you Caesar."
+		"choices": [
+			{
+				"text": "Show them the true power of the Legion, massacre all that stand in your way.",
+				"triggeredUniques": [
+					"Gain [-50] [Gold]",
+					"[-1] population in a random city <with [25]% chance>",
+					"Free [Conscript] appears <with [50]% chance>",
+					"[+15]% [Production] [in capital] <for [5] turns> <with [50]% chance>"
+				]
+				"conditions": ["when above [75] [Gold]"]
+			},
+			{
+				"text": "We could use the Slave Runners for our army instead. Recruit them.",
+				"triggeredUniques": [
+					"[2] free [Slave Runner] units appear"
+				]
+				"conditions": ["when above [75] [Gold]"]
+			},
+			{
+				"text": "There will be no slave run this time.",
+				"triggeredUniques": [
+				]
+				"conditions": ["when above [75] [Gold]"]
+			},
+			{
+				"text": "We cannot afford a slave run at this time.",
+				"triggeredUniques": [
+				]
+				"conditions": ["when below [75] [Gold]"]
+			}
+		]
+	},
+	{
+		"name": "A Mysterious Stranger",
+		"text": "A Mysterious Stranger has come to help us in our war."
+		"choices": [
+			{
+				"text": "Who is this guy?",
+				"triggeredUniques": [
+					"[1] free [Mysterious Stranger] units appear"
+				]
+			}
+		]
+	},
+	/*{
+		"name": "Zetan Scouts!",
+		"text": "Our scouts have reported sightings of what looks to be an alien scout group."
+		"choices": [
+			{
+				"text": "Aliens don't exist.",
+				"triggeredUniques": [
+					"[3] free [Zetan Scout] units appear <for [Barbarians]>",
+				]
+			}
+		]
+	}*/
+]

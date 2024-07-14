@@ -1,3 +1,20 @@
 [
-
+	{
+		"name": "Massacre Zone",
+		"uniqueTo": "Caesar's Legion",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Permafrost"
+		],
+		"happiness": -2,
+		"turnsToBuild": 7,
+		"uniques": [
+			"Comment [[+3 Happiness] for Caesar's Legion]",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+	},
 ]

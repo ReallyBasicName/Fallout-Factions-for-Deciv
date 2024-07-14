@@ -1,5 +1,364 @@
 [
 	////Majors
+	//Caesar's Legion
+	{
+		"name": "The Fort",
+		"isWonder": true,
+		"uniqueTo": "Caesar's Legion",
+		"cityHealth": 25,
+		"cost": 1,
+		"uniques": [
+			"[2] free [Recruit Legionary] units appear",
+			"Gain a free [Food Store] [in this city]",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "Thesis and antithesis. The Colorado River is my Rubicon. The NCR council will be eradicated, but the new synthesis will change the Legion as well... from a basically nomadic army to a standing military force that protects its citizens, and the power of its dictator. - Caesar",
+	},
+	{
+		"name": "Senate",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] [in all cities]",
+			"[+1 Gold] per [4] population [in all cities]",
+			"[-15]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Subjugate Wastelanders] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Caesar's Hut",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Council",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+15]% Production when constructing [Land] units [in all cities]",
+			"[+1 Production] per [5] population [in all cities]",
+			"[-1 Happiness] [in all cities]",
+			"[+5]% growth [in all cities]",
+			"Only available <if [Subjugate Wastelanders] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [The Senate]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Subjugate Wastelanders",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Search for Survivors",
+		"production": 1,
+		"happiness": -1,
+		"cost": 40,
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides [2] [Slaves]"
+		]
+	},
+	{
+		"name": "Slaver's Guild",
+		"uniqueTo": "Caesar's Legion",
+		"production": 1,
+		"percentStatBonus": {"production": 10},
+		"cost": 100,
+		"uniques": [
+			"Provides [2] [Slaves]",
+		],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Slave Market",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Market",
+		"percentStatBonus": { "food": 5 },
+		"percentStatBonus": { "gold": 5 },
+		"specialistSlots": { "Merchant": 1 },
+		"gold": 1,
+		"happiness": -1,
+		"uniques": [
+			"[+50]% Production when constructing [Worker] units [in this city]",
+			"[+1 Gold, +1 Production] [in this city] <when above [0] [Slaves]>",
+			"Only available <with [Slaves]>",
+			"Only available <if [Slaver's Guild] is constructed>",
+			"Consumes [1] [Slaves]"
+		],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Slaver Camp",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Town Hall",
+		"percentStatBonus": { "gold": 5 },
+		"production": 1,
+		"happiness": -1,
+		"uniques": [
+			"[+1 Gold, +1 Production] [in this city] <when above [2] [Slaves]>",
+			"[+1 Gold, +1 Production] [in this city] <when above [5] [Slaves]>",
+			"[+1 Gold, +1 Production] [in this city] <when above [8] [Slaves]>",
+			"[+1 Gold, +1 Production] [in this city] <when above [12] [Slaves]>",
+			"[+1 Gold, +1 Production] [in this city] <when above [15] [Slaves]>",
+			"Only available <if [Slaver's Guild] is constructed>",
+			"Only available <with [Slaves]>",
+			"Provides [1] [Slaves]"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Blacksmith",
+		"uniqueTo": "Caesar's Legion",
+		"replaces": "Forge",
+		"production": 2,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Scrap", "Metal", "Weapons"],
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] [in this city] <when above [0] [Power]>",
+			"[+1 Production] [in this city] <when above [1] [Weapons]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>"
+		]
+	},
+	{
+		"name": "Frumentarii Camp",
+		"replaces": "Listening Post",
+		"uniqueTo": "Caesar's Legion",
+		"maintenance": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"[-33]% enemy spy effectiveness [in this city]",
+			"Only available <in cities without a [Prison Camp]>",
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Instructor's Quarters",
+		"replaces": "Barracks",
+		"uniqueTo": "Caesar's Legion",
+		"hurryCostModifier": 25,
+		"cost": 60,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+10]% Production when constructing [{Military} {Land}] units [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Study",
+		"replaces": "Library",
+		"uniqueTo": "Crimson Legion",
+		"science": 1,
+		"greatPersonPoints": { "Great Scientist": 1 },
+		"uniques": [
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Science] per [4] population [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "College of Rhetoric",
+		"replaces": "University",
+		"uniqueTo": "Crimson Legion",
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 10 },
+		"greatPersonPoints": { "Great Scientist": 1, "Great Administrator": 1 },
+		"specialistSlots": { "Administrator": 1 },
+		"uniques": [
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"Only available <in cities with a [Library]>",
+			"[+1 Culture] [in this city] <when above [0] [Power]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Military School",
+		"replaces": "Public School",
+		"uniqueTo": "Crimson Legion",
+		"food": -1,
+		"science": 1,
+		"uniques": [
+			"[+15]% Production when constructing [Military] units [in this city]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"Only available <in cities with a [Barracks]>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Legion Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Crimson Legion",
+		"percentStatBonus": { "food": -25 },
+		"cost": 15,
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"uniques": [
+			"[+15]% Production when constructing [Melee] units [in this city]",
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Provides [3] [Slaves]",
+			"Free [Auxiliary] appears",
+			"Only available <in cities without a [Colosseum]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Colosseum",
+		"replaces": "Stadium",
+		"uniqueTo": "Crimson Legion",
+		"happiness": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Slaves]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Engineering"
+	},
+	//Commonwealth Minutemen
+	{
+		"name": "Fort Independence",
+		"isWonder": true,
+		"uniqueTo": "Commonwealth Minutemen",
+		"cityHealth": 25,
+		"culture": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Weapons]",
+			"[1] free [Minuteman] units appear",
+			"Gain a free [Food Store] [in this city]",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "I had to put on a brave face as long as there were still people counting on me. That's the only reason I kept going. - Preston Garvey",
+		"civilopediaText": [
+			{
+				"text": "A historic landmark dating back to the pre-Revolutionary period. Fort Independence is the headquarters of the Minutemen."
+			}
+		]
+	},
+	{
+		"name": "Provisional Congress",
+		"uniqueTo": "Commonwealth Minutemen",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Food] per [5] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Provisional Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Provisional Council",
+		"uniqueTo": "Commonwealth Minutemen",
+		"replaces": "Council",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+15]% growth [in all cities]",
+			"[+10]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Provisional Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Recruitment Beacon",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "Commonwealth Minutemen",
+		"food": 1,
+		"culture": 1,
+		"happiness": 1,
+		"specialistSlots": { "Administrator": 1 },
+		"percentStatBonus": { "culture": 25 },
+		"uniques": [
+			"[+1] population [in this city]",
+			"Consumes [1] [Power]"
+		],
+		// "maintenance": 3,
+		"requiredTech": "Radio"
+	},
+	{
+		"name": "Scrap Walls",
+		"replaces": "Walls",
+		"uniqueTo": "Commonwealth Minutemen",
+		"cost": 50,
+		"cityStrength": 1,
+		"cityHealth": 80,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Weapons Forge",
+		"uniqueTo": "Commonwealth Minutemen",
+		"requiredTech": "Engineering",
+		"uniques": [
+			"Provides [1] [Weapons]"
+		]
+	},
+	{
+		"name": "Heavy Weapons Forge",
+		"uniqueTo": "Commonwealth Minutemen",
+		"requiredTech": "Rifling",
+		"uniques": [
+			"Provides [3] [Weapons]"
+		]
+	},
+	{
+		"name": "Guard Post",
+		"uniqueTo": "Commonwealth Minutemen",
+		"cost": 50,
+		"cityStrength": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Guard Tower",
+		"uniqueTo": "Commonwealth Minutemen",
+		"cost": 50,
+		"cityStrength": 5,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Trading Emporium",
+		"replaces": "Market",
+		"uniqueTo": "Commonwealth Minutemen",
+		"cost": 100,
+		"specialistSlots": { "Merchant": 2 },
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": [
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+			"[+1 Gold] from [Strategic resource] tiles [in this city]"
+		]
+	},
 	//New Vegas
 	{
 		"name": "Lucky 38",
@@ -12,9 +371,10 @@
 			"Provides [1] [Encrypted Data]",
 			"[1] free [Securitron Mk I] units appear",
 			"Gain a free [Food Store] [in this city]",
-			"Can only be built <in [Capital] cities>"
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
 		],
-		"quote": "You see that you and I are of a different stripe, don't you? We don't have to dream that we're important. We are.",
+		"quote": "You see that you and I are of a different stripe, don't you? We don't have to dream that we're important. We are. - Mr House",
 		"civilopediaText": [
 			{
 				"text": "Mr. House's Lucky 38 casino towers over the New Vegas Strip, mysterious and impenetrable to visitors and locals alike."
@@ -122,8 +482,8 @@
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Manufacturing"
-  },
-  {
+	},
+	{
 		"name": "Triple Advisatory Council",
 		"uniqueTo": "New Vegas",
 		"replaces": "Congress",
@@ -216,8 +576,31 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"Provides [1] [Weapons]"
+			"Can only be built <in [Capital] cities>",
 		]
 	},
+	//The Unity
+	/*{
+		"name": "Marioposa FEV Vats",
+		"isWonder": true,
+		"uniqueTo": "The Unity",
+		"cityHealth": 25,
+		"culture": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Weapons]",
+			"[1] free [Minuteman] units appear",
+			"Gain a free [Food Store] [in this city]",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "The Unity will bring about the master race. Master! Master! One able to survive, or even thrive, in the wasteland. As long as there are differences, we will tear ourselves apart fighting each other. We need one race. Race! Race! One goal. Goal! Goal! One people... to move forward to our destiny. Destiny. - The Master",
+		"civilopediaText": [
+			{
+				"text": ""
+			}
+		]
+	},*/
 	////City-States
 	//Boomers
 	{
@@ -234,7 +617,7 @@
 			"[1] free [Restored Howitzer] units appear"
 		],
 		"requiredTech": "The Wheel"
-	}
+	},
 	////Miscellaneous
 	{
 		"name": "Gun Runners",
@@ -254,4 +637,5 @@
 			"Provides [2] [Weapons]"
 		]
 	},
+	////Reworked
 ]

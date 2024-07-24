@@ -6,14 +6,14 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Lucky 38 
   rotate: false
-  xy: 212, 98
+  xy: 420, 98
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Boomers
   rotate: false
-  xy: 1252, 127
+  xy: 1460, 127
   size: 171, 171
   orig: 171, 171
   offset: 0, 0
@@ -25,7 +25,7 @@ NationIcons/Brotherhood of Steel
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Caeser's Legion
+NationIcons/Caesar's Legion
   rotate: false
   xy: 4, 98
   size: 200, 200
@@ -39,100 +39,128 @@ NationIcons/Commonwealth Minutemen
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/New California Republic
+NationIcons/Free States
+  rotate: false
+  xy: 212, 98
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Great Khans
   rotate: false
   xy: 420, 306
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/New Vegas
+NationIcons/New California Republic
   rotate: false
   xy: 628, 306
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/People's Liberation Army
-  rotate: false
-  xy: 628, 98
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/The Enclave
-  rotate: false
-  xy: 836, 98
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/The Institute
-  rotate: false
-  xy: 1044, 306
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/The Railroad
-  rotate: false
-  xy: 1044, 98
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/The Unity
-  rotate: false
-  xy: 1568, 406
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Zion
-  rotate: false
-  xy: 1252, 306
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationPortraits/New California Republic
-  rotate: false
-  xy: 420, 98
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationPortraits/People's Liberation Army
+NationIcons/New Vegas
   rotate: false
   xy: 836, 306
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/People's Liberation Army
+  rotate: false
+  xy: 836, 98
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Pittsburgh Union
+  rotate: false
+  xy: 1668, 356
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+NationIcons/The Enclave
+  rotate: false
+  xy: 1044, 98
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Institute
+  rotate: false
+  xy: 1252, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Railroad
+  rotate: false
+  xy: 1252, 98
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Unity
+  rotate: false
+  xy: 1668, 248
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Zion
+  rotate: false
+  xy: 1460, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationPortraits/New California Republic
+  rotate: false
+  xy: 628, 98
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationPortraits/People's Liberation Army
+  rotate: false
+  xy: 1044, 306
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 NationPortraits/The Unity
   rotate: false
-  xy: 1676, 406
+  xy: 1639, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Followers of the Apocalypse
   rotate: false
-  xy: 1460, 406
+  xy: 1826, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Fusion Core
+  rotate: false
+  xy: 1934, 406
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Benny
   rotate: false
-  xy: 1460, 370
+  xy: 1826, 370
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chairman Bodyguard
   rotate: false
-  xy: 1784, 478
+  xy: 1776, 320
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -153,35 +181,49 @@ TileSets/FantasyHex/Units/Restored Howitzer
   index: -1
 TileSets/FantasyHex/Units/Securitron Mk I
   rotate: false
-  xy: 1460, 334
+  xy: 1866, 370
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Securitron Mk II
   rotate: false
-  xy: 1460, 334
+  xy: 1866, 370
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Securitron Mk III
   rotate: false
-  xy: 1460, 334
+  xy: 1866, 370
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Securitron Mk IV
   rotate: false
-  xy: 1460, 334
+  xy: 1866, 370
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Securitron Mk V
   rotate: false
-  xy: 1460, 334
+  xy: 1866, 370
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Securitron Mk VI
+  rotate: false
+  xy: 1866, 370
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Super Mutant Suicider
+  rotate: false
+  xy: 1776, 284
   size: 32, 28
   orig: 32, 28
   offset: 0, 0

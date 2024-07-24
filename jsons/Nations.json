@@ -2,14 +2,15 @@
 	////Development List
 	//Commonwealth Minutemen (Being worked on)
 	//Caesar's Legion (Being worked on)
-	//NCR (Being worked on)
-	//Great Khans (Being worked on)
-	//Brotherhood of Steel (Being worked on)
-	//The Enclave (Being worked on)
-	//The Unity (Being worked on)
+	//NCR (Not much to say)
+	//Great Khans (Also not much to say)
+	//Brotherhood of Steel (Just the power armor would be hard)
+	//The Enclave (The power armor, vertibirds, and Frank Horrigan will make it complicated)
+	//The Unity (The suggested uniques will be complicated to implement)
 	//The Institute (I have no idea what to make for this)
-	//Zion (Never played the dlc it's in. What am I saying, I've only played some of New Vegas and Fallout 4)
+	//Zion (Never played the dlc it's in)
 	//Free States (Since Fallout 76's factions die out, it will be harder)
+	//Responders (Since Fallout 76's factions die out, it will be harder)
 	/*{
 		"name": "Brotherhood of Steel",
 		"leaderName": "Elder Maxson",
@@ -76,11 +77,16 @@
 		"uniqueName": "Conqueror of Eighty-Six Tribes",
 		//"uniqueText": "Each time a city is conquered, the capital receives a 15% increase in Production for 5 turns. (Other effects TBD) Cannot build Automated or Purge Robot units.",
 		"uniques": [
-			"Triggers a [Slave Run!] event <upon turn end> <with [5]% chance> <if [Slaver's Guild] is constructed>",
+			"Triggers a [Slave Run!] event <upon turn end> <with [5]% chance> <if [Slaver's Guild] is constructed> <hidden from users>",
+			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [25]% chance>",
 			"[+15]% [Production] [in capital] <for [5] turns> <upon conquering a city>",
 			"[+3 Happiness] from every [Massacre Zone] <hidden from users>",
+			"[+1 Production, +1 Happiness] [in all cities] <when at war>",
+			"[+30]% Strength <vs [City-States]>",
+			"Starts with [Supremacy] adopted",
+			"Cannot build [Purge Robot] units",
 			"Cannot build [Automated] units",
-			"Cannot build [Purge Robot] units"
+			"Starts with [Construction]"
 		],
 		"cities": ["Flagstaff", "Fortification Hill", "Two Sun", "Denver", "Phoenix", "Dry Wells", "Cottonwood Cove", "Syracuse", "Malpais",
 			"Nelson", "Nipton", "Spanish Fork", "Yuma", "Willow Beach", "Bullhead City", "Circle Junction", "The Res", "Twin Mothers",
@@ -112,9 +118,10 @@
 		"style": "Military",
 		"uniqueName": "United We Stand",
 		"uniques": [
+			"Starts with [Constitution] adopted",
 			"[All] units gain the [Minute's Notice] promotion",
 			"Resting point for Influence with City-States is increased by [15]",
-			"When declaring friendship, both parties gain a [+20]% boost to great person generation"
+			"When declaring friendship, both parties gain a [+25]% boost to great person generation"
 			]
 		"cities": [
 			"The Castle",
@@ -144,6 +151,38 @@
         "spyNames": ["Sarge", "Becker", "McGann", "Shaw", "Hollis", "Nate", "Nora", "Sturges", "Savoldi", "Mama Murphy"]
 	},
 	/*{
+		"name": "Free States",
+		"leaderName": "Raleigh Clay",
+		"adjective": ["Free State"],
+		"startBias": ["Wasteland"],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "Raleigh",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [36, 32, 31],
+		"innerColor": [75, 146, 202],
+		"style": "",
+		"uniqueName": "",
+		"uniques": [
+			"Starts with [Constitution] adopted",
+			]
+		"cities": [
+			"Harpers Ferry",
+		]
+        "spyNames": ["", "", "", "", "", "", "", "", "", ""]
+	},
+	{
 		"name": "Great Khans",
 		"leaderName": "Papa Khan",
 		"adjective": ["Khan"],
@@ -164,15 +203,15 @@
 		"hateHello": "",
 		"tradeRequest": "",
 		
-		//"outerColor": 
-		//"innerColor": 
+		"outerColor": [120, 24, 8],
+		"innerColor": [167, 144, 52],
 		"style": "",
 		"uniqueName": "A Destiny Unburdened",
 		"uniqueText": "When defeating Barbarian units, there is a 67% chance that you earn 25 Water and they join your side. Barbarian units captured this way cost no maintenance and provide up to 5 Water each turn while inside your territory. Defeated units provide a temporary burst in Production towards Civilian units. Start with Chemistry researched.",
 		"uniques": [
-			"Upon defeating a [Barbarian] unit, gain [25] Gold and recruit it <with [67]% chance>",
-			"[Barbarian] units gain the [???] promotion",
-			"[Military] units gain the [???] promotion",
+			"When defeating a [Military] unit, earn [25] Gold and recruit it <with [67]% chance>",
+			"[Barbarian] units gain the [New Khan] promotion",
+			//"[Military] units gain the [???] promotion",
 			"Starts with [Chemistry]"
 		],
 		"cities": [
@@ -198,13 +237,14 @@
 		],
         "spyNames": ["Oscar", "Regis", "Diane", "Jack", "Chance", "Jessup", "McMurphy", "Anders", "Melissa", "Manny"]
 	},*/
-	/*{
+	{
+	//Changed from Aaron Kimball because I found out Tandi is way more important
 		"name": "New California Republic",
-		"leaderName": "Aaron Kimball",
+		"leaderName": "Tandi",
 		"adjective": ["NCR"],
 		"startBias": ["Desert"],
 		//"preferredVictoryType": "",
-		//"personality": "Aaron",
+		//"personality": "Tandi",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "",
@@ -212,19 +252,21 @@
 		
 		"declaringWar": "",
 		"attacked": "",
-		"defeated": "",
-		"introduction": "",
+		"defeated": "I can't believe this is actually happening... but I'm not about to surrender to the likes of you! Not yet!",
+		"introduction": "Hi! I can tell you're not from around here, so welcome to Shady Sands! Oh... you're from further away than that, huh? Well... welcome to the New California Republic!",
 		
-		"neutralHello": "",
+		"neutralHello": "Hi!",
 		"hateHello": "",
 		"tradeRequest": "",
 		
 		"outerColor": [255,255,255],
 		"innerColor": [184,10,49],
 		"style": "",
-		"uniqueName": "TBD",
+		"uniqueName": "Pacification of the Wasteland",
 		"uniques": [
-			]
+			"[+10]% Production when constructing [All] buildings [in all cities] <in [Desert] tiles>",
+			"[-50]% Gold cost of acquiring tiles [in all cities]"
+		]
 		"cities": [
 			"Shady Sands",
 			"Boneyard",
@@ -243,7 +285,7 @@
 			"Nipton"
 			]
         "spyNames": ["Hanlon", "Moore", "Oliver", "Hsu", "Crocker", "Seth", "Aradesh", "Sterling", "Dhatri","Boone"]
-	},*/
+	},
 	{
 		"name": "New Vegas",
 		"leaderName": "Mr. House",
@@ -304,35 +346,37 @@
 		"startIntroPart1": "Did you know, there are those amongst us who would shatter our hopes for peace, order, and security? These radical malcontents don't care about you. They don't care about America! All they care about is fulfilling their own selfish desires. Let's take a tally of these agitators, shall we? There are, of course, the raiders. Those anarchistic ruffians who roam the wastes, preying on any and all, stealing, murdering. The so-called 'Brotherhood of Steel.' Now, don't be fooled by their pseudo-knightly nonsense or supposed connections to the United States Army. These... power-armored boy scouts are nothing more than common criminals with access to some antiquated technology. Criminals who have had the audacity to claim this country's most important military installation, the Pentagon, as their own personal clubhouse! And don't be fooled, America. Those who have left the Brotherhood of Steel, branded Outcasts, are just as dangerous; even more so, being in exile. And what about the slavers of Paradise Falls? The frighteningly irradiated ghouls of Underworld? And last but not least, the hideously mutated super mutants that have completely overrun the entire downtown D.C. area.",
 		"startIntroPart2": "Lawlessness, terror, murder. They're all around us, I know. I know. But not for long, sweet America. Not for long. Oh no. The Enclave will restore peace, order, and prosperity to this great nation. And those who oppose us will be… removed. Forever.",
 		
-		"declaringWar": 
-		"attacked": 
+		"declaringWar": ""
+		"attacked": ""
 		"defeated": "This isn't over. Humanity will prevail.",
 		"introduction": "Hello there. I'm President Richardson, and I'm damn proud to meet you. I'm very curious to hear from a genuine mutant what life's like in that radioactive hell of yours.",
-		"neutralHello": 
-		"hateHello": 
-		"tradeRequest": 
+		"neutralHello": ""
+		"hateHello": ""
+		"tradeRequest": ""
 
 		"outerColor": [255, 255, 255],
 		"innerColor": [0, 0, 0],
 		"style": "Military",
 		"uniqueName": "Semper Fi",
-		"uniqueText": "Military buildings provide +2 Science. Missile units have 100% additional range.",
+		//"uniqueText": "",
 		"uniques": [
-			"[+2 Science] from every [Barracks]",
-			"[+2 Science] from every [Armory]",
-			"[+2 Science] from every [Armaments Production Line]",
-			"[+2 Science] from every [Armor Production Line]",
-			"[+2 Science] from every [Aerospace Facility]",
-			"[+10] Range <for [Guided Missile] units>",
-			"[+8] Range <for [Tactical Nuke] units>",
-			"[+16] Range <for [Nuclear Missile] units>"
+			"Comment [Military buildings provide [+2 Science]]",
+			"[+2 Science] from every [Barracks] <hidden from users>",
+			"[+2 Science] from every [Armory] <hidden from users>",
+			"[+2 Science] from every [Armaments Production Line] <hidden from users>",
+			"[+2 Science] from every [Armor Production Line] <hidden from users>",
+			"[+2 Science] from every [Aerospace Facility] <hidden from users>",
+			"Comment [[100]% Range for [Missile] units]",
+			"[+10] Range <for [Guided Missile] units> <hidden from users>",
+			"[+8] Range <for [Tactical Nuke] units> <hidden from users>",
+			"[+16] Range <for [Nuclear Missile] units> <hidden from users>"
 		],
 		"cities": ["Navarro", "Control Station ENCLAVE", "Raven Rock", "Washington", "Chicago", "Adams AFB", "Mariposa", "Rockland",
 			"Fort Constantine", "Old Olney", "Wheaton", "Camp RHO", "Remnants Bunker", "Crater Camp", "Springvale", "Fairfax",
 			"Seward Square", "Arroyo", "Klamath", "Silver Peak"]
         "spyNames": ["Kreger", "Moreno", "Gannon", "Johnson", "Henry", "Dornan", "Curling", "Autumn", "Whitman","Augustus"]
-	},*/
-	/*{
+	},
+	{
 		"name": "The Institute",
 		"leaderName": "Father",
 		"adjective": ["Institute"],
@@ -365,7 +409,7 @@
 			""
 			]
         "spyNames": ["X4-18", "X6-88", "X9-27", "Z2-47", "X1-02", "X1-91", "X3-24", "X5-76", "X6-55","X7-55"]
-	},*/
+	},
 	{
 		"name": "The Unity",
 		"leaderName": "The Master",
@@ -377,7 +421,7 @@
 
 		// "startIntroPart1": "TBA",
 		// "startIntroPart2": "TBA",
-		"declaringWar": "The Unity"
+		"declaringWar": "The Unity will bring about the master race. Master! Master! You are merely pawns in a grander scheme. Grander! Scheme!"
 		"attacked": "So be it. You've dug your own grave. Grave! Grave!"
 		"defeated": "But it cannot be. This would mean that all my work has been for nothing. Everything that I have tried to . . . a failure! It can't be. Be. Be. Be."
 		"introduction": "I am the Master. Do you join the Unity, or do you die? Join! Die! Join! Die!"
@@ -388,7 +432,7 @@
 		"outerColor": [173,38,38],
 		"innerColor": [0,0,0],
 		"style": ""
-		"uniqueName": "One Race, One Goal, One People."
+		"uniqueName": "One Race, One Goal, One People"
 		"uniques": [
 			//The concept is that they want to sink their happiness to the point where rebel units are spawning.
 			//They would gain bonuses which outweigh the penalties of very high Unhappiness.
@@ -397,10 +441,10 @@
 			//or transformed into their unique varieties of Mutant units (Nightkin, Centaurs, Floaters, etc.).
 
 			"Rebel units may spawn",
+			"Triggers a [Slave Run!] event <upon defeating a [Barbarian] unit> <upon turn end>"
 			"When defeating a [Military] unit, earn [25] Gold and recruit it <with [33]% chance>",
 			"[+100]% [Production] [in all cities] <when below [-10] Happiness>",
 			"Cannot build [Civilian Convoy] units",
-			
 		],
 		"cities": [
 			"The Cathedral",
@@ -409,7 +453,7 @@
 		],
 		"spyNames": ["Lieutenant", "Morpheus", "Davison", "Tabitha", "Viscious", "Marcus", "Jeremiah", "Van Hagan", "Attis", "Gammorin"]
 	},
-	/*{
+	{
 		"name": "Zion",
 		"leaderName": "Joshua Graham",
 		"adjective": ["Zionite"],
@@ -428,8 +472,6 @@
 		"hateHello": "If you harm any of my people, I will find you. Make no mistake. God willing, you will not leave this valley.",
 		"afterPeace": "Waging war against good people is bad for the soul.",
 		"tradeRequest": "We are happy to share with you anything you might need.",
-		//Current dialogue aside from the declaring war line is identical to the playable version of Deseret Nation in "Outlaws of the Wastes" - because its leader is based on Joshua Graham.
-		//If this mod is to allow Zion and Deseret to spawn in the same game, the above lines may need to be changed.
 
 		"outerColor": [191, 128, 6],
 		"innerColor": [252, 255, 218],
@@ -451,7 +493,6 @@
 			"Old Rockville", "Crossroad Cavern", "Patriarchs' Court", "Dagger's Point"],
 		"spyNames": ["Follows-Chalk", "Daniel", "Mordecai", "Two-Bears-High-Fiving", "Clark", "Crawling Gecko", "Dancing Flame", "White Bird", "Quiet Shadow", "Waking Cloud"]
 	},*/
-
 	// City-States
 	{
 		"name": "Boomers",
@@ -484,6 +525,20 @@
 		"cities": ["Goodneighbor"]
 	},
 	{
+		"name": "New Reno",
+		"adjective": ["New Reno"],
+		"cityStateType": "Weapons",
+		"style": "",
+		"uniques": [
+			],
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",		
+		"outerColor": [0,0,0],
+		"innerColor": [93,93,93],
+		"cities": ["New Reno"]
+	},
+	{
 		"name": "People's Liberation Army",
 		"adjective": ["PLA"],
 		"cityStateType": "Weapons",
@@ -496,6 +551,20 @@
 		"outerColor": [203,18,37],
 		"innerColor": [250,208,21],
 		"cities": ["Chinese Occupied Refinery"]
+	},
+	{
+		"name": "Pittsburgh Union",
+		"adjective": ["Union"],
+		"cityStateType": "Weapons",
+		"style": "",
+		"uniques": [
+			],
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",		
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["The Pitt"]
 	},
 	{
 		"name": "Shi",
@@ -526,6 +595,20 @@
 		"cities": ["Old North Church"]
 	},
 	{
+		"name": "The Responders",
+		"adjective": ["Responder"],
+		"cityStateType": "Research",
+		"style": "",
+		"uniques": [
+			],
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",		
+		"outerColor": [0,0,0],
+		"innerColor": [57, 87, 164],
+		"cities": ["The Whitespring Resort"]
+	},
+	{
 		"name": "Yakuza",
 		"adjective": ["Yakuza"],
 		"cityStateType": "Labor",
@@ -539,5 +622,4 @@
 		"innerColor": [241,20,93],
 		"cities": ["Marklee"]
 	}
-	////Reworked Factions
 ]

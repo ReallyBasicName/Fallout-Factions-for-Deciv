@@ -1,5 +1,48 @@
 [
 	////Majors
+	/*
+	//For ease of access
+	{
+		"name": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Council",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},*/
+	//Brotherhood of Steel
+	/*{
+		"name": "Lost Hills Bunker",
+		"isWonder": true,
+		"uniqueTo": "Brotherhood of Steel",
+		"cityHealth": 25,
+		"cost": 1,
+		"uniques": [
+			"[1] free [Sentry] units appear",
+			"Gain a free [Food Store] [in this city]",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "",
+	},*/
 	//Caesar's Legion
 	{
 		"name": "The Fort",
@@ -17,34 +60,29 @@
 	},
 	{
 		"name": "Senate",
-		"uniqueTo": "Caesar's Legion",
 		"replaces": "Congress",
+		"uniqueTo": "Crimson Legion",
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+1 Culture] [in all cities]",
-			"[+1 Gold] per [4] population [in all cities]",
-			"[-15]% Unhappiness from [Population] [in all cities]",
-			"Only available <if [Subjugate Wastelanders] is constructed>",
+			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Council]>",
+			"Only available <in cities without a [Consulate]>",
 			"Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "Caesar's Hut",
-		"uniqueTo": "Caesar's Legion",
+		"name": "Consulate",
 		"replaces": "Council",
+		"uniqueTo": "Crimson Legion",
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+15]% Production when constructing [Land] units [in all cities]",
-			"[+1 Production] per [5] population [in all cities]",
-			"[-1 Happiness] [in all cities]",
-			"[+5]% growth [in all cities]",
-			"Only available <if [Subjugate Wastelanders] is constructed>",
+			"Great General provides double combat bonus",
+			"[+20]% Production when constructing [Military] units [in all cities]",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [The Senate]>",
+			"Only available <in cities without a [Senate]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -124,6 +162,64 @@
 		]
 	},
 	{
+		"name": "Instructor's Quarters",
+		"replaces": "Barracks",
+		"uniqueTo": "Caesar's Legion",
+		"hurryCostModifier": 25,
+		"cost": 75,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+10]% Production when constructing [{Military} {Land}] units [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Study",
+		"replaces": "Library",
+		"uniqueTo": "Caesar's Legion",
+		"science": 1,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"[+2 Science] from [Books] tiles [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "College of Rhetoric",
+		"replaces": "University",
+		"uniqueTo": "Caesar's Legion",
+		"happiness": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 1},
+		"uniques": [
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"Only available <in cities with a [Library]>",
+			"[+2 Science] [in this city] <when above [0] [Power]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Military School",
+		"replaces": "Public School",
+		"uniqueTo": "Caesar's Legion",
+		"science": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city] <after discovering [Networking]>",
+			"[+10]% Production when constructing [{Military} {Land}] units [in this city]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"Only available <in cities with a [Barracks]>"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
 		"name": "Frumentarii Camp",
 		"replaces": "Listening Post",
 		"uniqueTo": "Caesar's Legion",
@@ -140,69 +236,9 @@
 		"requiredTech": "Civil Service"
 	},
 	{
-		"name": "Instructor's Quarters",
-		"replaces": "Barracks",
-		"uniqueTo": "Caesar's Legion",
-		"hurryCostModifier": 25,
-		"cost": 60,
-		"maintenance": 1,
-		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
-			"[+10]% Production when constructing [{Military} {Land}] units [in this city]",
-			"Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Study",
-		"replaces": "Library",
-		"uniqueTo": "Crimson Legion",
-		"science": 1,
-		"greatPersonPoints": { "Great Scientist": 1 },
-		"uniques": [
-			"[+1 Science] [in this city] <when above [0] [Power]>",
-			"[+1 Science] per [4] population [in this city]"
-		],
-		"hurryCostModifier": 25,
-		"requiredTech": "Writing"
-	},
-	{
-		"name": "College of Rhetoric",
-		"replaces": "University",
-		"uniqueTo": "Crimson Legion",
-		"culture": 1,
-		"maintenance": 1,
-		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 10 },
-		"greatPersonPoints": { "Great Scientist": 1, "Great Administrator": 1 },
-		"specialistSlots": { "Administrator": 1 },
-		"uniques": [
-			"[+1 Science] from [Jungle] tiles [in this city]",
-			"[+1 Science] from [Forest] tiles [in this city]",
-			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
-			"Only available <in cities with a [Library]>",
-			"[+1 Culture] [in this city] <when above [0] [Power]>"
-		],
-		"requiredTech": "Education"
-	},
-	{
-		"name": "Military School",
-		"replaces": "Public School",
-		"uniqueTo": "Crimson Legion",
-		"food": -1,
-		"science": 1,
-		"uniques": [
-			"[+15]% Production when constructing [Military] units [in this city]",
-			"New [Military] units start with [15] Experience [in this city]",
-			"Only available <in cities with a [Barracks]>"
-		],
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredTech": "Civil Service"
-	},
-	{
 		"name": "Legion Camp",
 		"replaces": "Prison Camp",
-		"uniqueTo": "Crimson Legion",
+		"uniqueTo": "Caesar's Legion",
 		"percentStatBonus": { "food": -25 },
 		"cost": 15,
 		"cityStrength": 10,
@@ -221,7 +257,7 @@
 	{
 		"name": "Colosseum",
 		"replaces": "Stadium",
-		"uniqueTo": "Crimson Legion",
+		"uniqueTo": "Caesar's Legion",
 		"happiness": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -234,7 +270,7 @@
 	},
 	//Commonwealth Minutemen
 	{
-		"name": "Fort Independence",
+		"name": "Fort Independence Armory",
 		"isWonder": true,
 		"uniqueTo": "Commonwealth Minutemen",
 		"cityHealth": 25,
@@ -248,11 +284,6 @@
 			"Automatically built in all cities where it is buildable"
 		],
 		"quote": "I had to put on a brave face as long as there were still people counting on me. That's the only reason I kept going. - Preston Garvey",
-		"civilopediaText": [
-			{
-				"text": "A historic landmark dating back to the pre-Revolutionary period. Fort Independence is the headquarters of the Minutemen."
-			}
-		]
 	},
 	{
 		"name": "Provisional Congress",
@@ -306,16 +337,64 @@
 		"uniqueTo": "Commonwealth Minutemen",
 		"cost": 50,
 		"cityStrength": 1,
-		"cityHealth": 80,
+		"cityHealth": 75,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Weapons Forge",
+		"name": "Guard Posts",
+		"replaces": "Defensive Emplacements",
 		"uniqueTo": "Commonwealth Minutemen",
-		"requiredTech": "Engineering",
+		"cityStrength": 5,
+		"cityHealth": 20,
+		"hurryCostModifier": 0,
 		"uniques": [
+			"[+1 Happiness] [in all cities with a garrison]",
+			"Only available <in cities with a [Walls]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Defensive Traps",
+		"replaces": "Choke Points",
+		"uniqueTo": "Commonwealth Minutemen",
+		"cityStrength": 5,
+		"cityHealth": 80,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be on [Hill]",
+			"Only available <in cities with a [Walls]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "Defensive Turrets",
+		"replaces": "Hardened Defenses",
+		"uniqueTo": "Commonwealth Minutemen",
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <in cities with a [Walls]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Weapons Forge",
+		"replaces": "Forge",
+		"uniqueTo": "Commonwealth Minutemen",
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] [in this city] <when above [0] [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>"
 			"Provides [1] [Weapons]"
 		]
 	},
@@ -358,6 +437,127 @@
 			"[+1 Gold] from [Luxury resource] tiles [in this city]"
 			"[+1 Gold] from [Strategic resource] tiles [in this city]"
 		]
+	},
+	//Free States
+	
+	//Great Khans
+	
+	//New California Republic
+	//	"replaces": "",
+	//	"uniqueTo": "New California Republic",
+	//Most buildings need to be reworked
+	//Buildings to add: Republic Reserve, NCR Council, NCR Senate, and possibly more
+	{
+		"name": "Vault 15 G.E.C.K.",
+		"isWonder": true,
+		"uniqueTo": "New California Republic",
+		"food": 1,
+		"cost": 1,
+		"uniques": [
+			"[1] free [Militia] units appear",
+			"Provides [1] [Exotic Seeds]",
+			"Gain a free [Food Store] [in this city]",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+	},
+	{
+		"name": "Crimson Caravan",
+		"replaces": "Market",
+		"uniqueTo": "New California Republic",
+		"specialistSlots": { "Merchant": 2 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": [
+			"Gain [0]-[5] [Gold] <upon turn end>"
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Gun Runners",
+		"replaces": "Armory",
+		"uniqueTo": "New California Republic",
+		"cityStrength": 5,
+		"cost": 60,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction",
+		"uniques": [
+			"Provides [1] [Weapons]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+1 Production] [in this city] <after discovering [Rifling]>",
+			"[+1 Production] [in this city] <after discovering [Munitions]>",
+			"[+1 Production] from [Weapons] tiles [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Brahmin Ranch",
+		"replaces": "Ranch",
+		"uniqueTo": "New California Republic",
+		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs"],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Insects] tiles [in this city]",
+			"[+1 Food] from [Goats] tiles [in this city]",
+			"[+1 Food] from [Furs] tiles [in this city]",
+			"[+1 Food] from [Hogs] tiles [in this city]"
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "NCR Sharecropper Farm", //Needs to be changed so it's different from the Commonwealth's Sharecropper Farm in Outlaws
+		"replaces": "Greenhouse",
+		"uniqueTo": "New California Republic",
+		"food": 2,
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Cactus] tiles [in this city]",
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Goats] tiles [in this city]",
+			"[+1 Gold] from every [Farmer] <in this city> <after discovering [Hydroponics]>",
+			"[+1 Food] [in this city] <with [Exotic Seeds]>"],
+		"requiredTech": "Botany",
+		"civilopediaText": [
+			{
+				"text": "Rather impressive, isn't it? You're not likely to see anything like this outside our lands. We get the water - *clean* water, mind - pumped in from pristine lakes that escaped the effects of the Cataclysm. Just follow the pipelines and they'll lead you there."
+			}
+		]
+	},
+	{
+		"name": "Military Police Station",
+		"replaces": "Field Office",
+		"uniqueTo": "New California Republic",
+		"maintenanceCost": 1,
+		"hurryCostModifier": 10,
+		"uniques": [
+			"[-25]% enemy spy effectiveness [in this city]",
+			"Only available <if [Listening Post] is constructed in at least [3] of [Your] cities>",
+			"Hidden when espionage is disabled"
+		],
+		"requiredTech": "Combined Arms"
+	},
+	{
+		"name": "Military Police HQ",
+		"replaces": "Information Awareness Office",
+		"uniqueTo": "New California Republic",
+		"isNationalWonder": true,
+		"culture": 1,
+		"cost": 150,
+		"uniques": [
+			"[-15]% enemy spy effectiveness [in all cities]",
+			"New spies start with [1] level(s)",
+			"Promotes all spies [1] time(s)",
+			"Gain an extra spy",
+			"Only available <if [Field Office] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Hidden when espionage is disabled"
+		],
+		"requiredTech": "Networking"
 	},
 	//New Vegas
 	{
@@ -578,18 +778,67 @@
 			"Provides [1] [Weapons]"
 			"Can only be built <in [Capital] cities>",
 		]
+	},/*
+	{
+		"name": "Gamble with Fate",
+		"uniqueTo": "New Vegas",
+		"cost": 1,
+		"uniques": [
+			"Gain [0]-[25] [Gold]"
+			"Remove [Gamble with Fate] <upon turn end> [in this city] <for [Human player]>",
+		]
+	},
+	//The Enclave
+	{
+		"name": "Project Purity",
+		"isWonder": true,
+		"uniqueTo": "The Enclave",
+		"happiness": 1,
+		"gold": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Weapons]",
+			"[1] free [Militia] units appear",
+			"[+2 Gold] <after discovering [Manufacturing]>",
+			"[+2 Gold] <after discovering [Decontamination]>",
+			"Gain a free [Food Store] [in this city]",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "",
+	},
+	//The Institute
+	{
+		"name": "Signal Interceptor",
+		"isWonder": true,
+		"uniqueTo": "The Institute",
+		"science": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Weapons]",
+			"[1] free [Militia] units appear",
+			"Gain a free [Food Store] [in this city]",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "The Institute... It's important. It really is humanity's best hope for the future, no matter what those above ground might think of us.",
+		"civilopediaText": [
+			{
+				"text": ""
+			}
+		]
 	},
 	//The Unity
-	/*{
+	{
 		"name": "Marioposa FEV Vats",
 		"isWonder": true,
 		"uniqueTo": "The Unity",
-		"cityHealth": 25,
+		"happiness": -4,
 		"culture": 1,
 		"cost": 1,
 		"uniques": [
 			"Provides [1] [Weapons]",
-			"[1] free [Minuteman] units appear",
+			"[5] free [Exo-Trooper] units appear",
 			"Gain a free [Food Store] [in this city]",
 			"Can only be built <in [Capital] cities>",
 			"Automatically built in all cities where it is buildable"
@@ -618,24 +867,30 @@
 		],
 		"requiredTech": "The Wheel"
 	},
-	////Miscellaneous
-	{
-		"name": "Gun Runners",
-		"cost": 150,
-		"maintenance": 1,
-		"requiredTech": "Engineering",
-		"uniques": [
-			"Provides [1] [Weapons]"
-		]
-	},
+	//New Reno
 	{
 		"name": "Van Graffs",
-		"cost": 200,
-		"maintenance": 2,
-		"requiredTech": "Engineering",
+		"replaces": "Armory",
+		"uniqueTo": "New Reno",
+		"cost": 75,
+		"requiredTech": "Construction",
 		"uniques": [
 			"Provides [2] [Weapons]"
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+1 Production] from [Weapons] tiles [in this city]",
+			"Destroyed when the city is captured"
 		]
+	},
+	////Miscellaneous
+	{
+		"name": "Fusion Generator",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [4] [Power]",
+			"Consumes [1] [Fusion Core]",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Computers"
 	},
 	////Reworked
 ]

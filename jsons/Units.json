@@ -107,7 +107,7 @@
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": ["Legion Assault","Terrifying Presence"],
-		"attackSound": "machinegun"
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Centurion",
@@ -127,7 +127,7 @@
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": ["Gas Mask","Legion Assault","Terrifying Presence"],
-		"attackSound": "machinegun"
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Praetorian Guard",
@@ -148,8 +148,9 @@
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": ["Gas Mask","Legion Assault","Terrifying Presence"],
-		"attackSound": "machinegun"
+		"attackSound": "metalhit"
 	},
+	//Vexillarius instead of Legate because Caesar only recruits one Legate
 	{
 		"name": "Vexillarius",
 		"unitType": "Scrapper",
@@ -166,6 +167,7 @@
 			"Uncapturable"
 		],
 		"movement": 2
+		"attackSound": "shot"
 	},
 	{
 		"name": "Slave Runner",
@@ -177,6 +179,7 @@
 			"Uncapturable"
 		],
 		"movement": 2
+		"attackSound": "shot"
 	},
 	{
 		"name": "Ballista",
@@ -214,7 +217,7 @@
 		"movement": 2
 	},
 	//Commonwealth Minutemen
-	{
+	/*{
 		"name": "Preston Garvey",
 		"unitType": "Shooter",
 		"uniqueTo": "Commonwealth Minutemen",
@@ -234,7 +237,7 @@
 		],
 		"promotions": ["Reconnaissance I", "Settlement Helper", "Urban Warfare I"],
 		"attackSound": "lm"
-	},
+	},*/
 	{
 		"name": "Minuteman",
 		"unitType": "Shooter",
@@ -315,6 +318,156 @@
 		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
 		"attackSound": "artillery"
+	},
+	//New California Republic
+	{
+		"name": "First Recon",
+		"unitType": "Shooter",
+		"uniqueTo": "New California Republic",
+		"replaces": "Marksman",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NBC Marksman",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Reconnaissance I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "NCR Ranger",
+		"unitType": "Shooter",
+		"uniqueTo": "New California Republic",
+		"replaces": "NBC Marksman",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 35,
+		"interceptRange": 1,
+		"cost": 225,
+		"requiredTech": "Plastics",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Can upgrade to [NCR Veteran Ranger] <for units with [Survivalism]>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Reconnaissance I", "Gas Mask"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "NCR Veteran Ranger",
+		"unitType": "Shooter",
+		"uniqueTo": "New California Republic",
+		"replaces": "Black Ops",
+		"range": 2,
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 45,
+		"interceptRange": 1,
+		"cost": 300,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,		
+		"uniques": [
+			"Personnel",
+			"Only available <if [Automated Factory] is constructed>",
+			"May Paradrop up to [4] tiles from inside friendly territory",
+			"Consumes [2] [Weapons]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Drone Recon",
+			"Reconnaissance I",
+			"Gas Mask",
+			"Thermoptic Camouflage",
+			"Infantry Weapons"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "NCR Military Police",
+		"unitType": "Scrapper",
+		"uniqueTo": "New California Republic",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Never appears as a Barbarian unit",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": [
+			"Urban Warfare I",
+			"Urban Warfare II"
+		],
+		"attackSound": "phasers"
+	},
+	{
+		"name": "NCR Trooper",
+		"unitType": "Scrapper",
+		"replaces": "Infantry",
+		"uniqueTo": "New California Republic",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NCR Infantry",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "NCR Infantry", //I need to find an actual unit to put here. For now this is the placeholder.
+		"unitType": "Scrapper",
+		"replaces": "NBC Infantry",
+		"uniqueTo": "New California Republic",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 230,
+		"requiredTech": "Plastics",
+		"upgradesTo": "NCR Heavy Infantry",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "NCR Heavy Infantry",
+		"unitType": "Scrapper",
+		"replaces": "Exo-Trooper", //Will replace T-45 Power Armor When I add it.
+		"uniqueTo": "New California Republic",
+		"movement": 2,
+		"strength": 60,
+		"interceptRange": 1,
+		"cost": 280,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Never appears as a Barbarian unit",
+			"May Paradrop up to [4] tiles from inside friendly territory",
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [2] [Weapons]"
+		],
+		"promotions": [
+			"Powered Armor",
+			"Gas Mask"
+		],
+		"attackSound": "phasers"
 	},
 	//New Vegas
 	/*{
@@ -626,7 +779,7 @@
 		"attackSound": "machinegun"
 	},
 	//Brotherhood of Steel
-	{
+	/*{
 		"name": "Liberty Prime",
 		"unitType": "Siege", //maybe it should be its own unit type, Siege Nuke?
 		"uniqueTo": "Brotherhood of Steel",
@@ -668,7 +821,7 @@
 			"Limited to [1] per Civilization"
 		],
 		"attackSound": "shipguns"
-	},
+	},*/
 	////City-States
 	//Arroyo
 	/*{
@@ -832,7 +985,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "ms"
 	},
-	{
+	/*{
 		"name": "Zetan Scout",
 		"unitType": "Shooter",
 		"movement": 2,
@@ -844,8 +997,8 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "za"
-	},
-	{
+	},*/
+	/*{
 		"name": "Super Mutant Suicider",
 		"unitType": "Shooter",
 		"uniqueTo": "Barbarians"
@@ -861,5 +1014,41 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "mutants"
-	},
+	},*/
+	//Power Armor
+	//I still don't know how I'm gonna balance these, I might make each power armor as powerful as the next tier infantry unit
+	/*
+	{
+		"name": "T-45 Power Armor",
+		"unitType": "Scrapper",
+	}
+	{
+		"name": "T-51 Power Armor",
+		"unitType": "Scrapper",
+	}
+	{
+		"name": "T-65 Power Armor",
+		"unitType": "Scrapper",
+	}
+	{
+		"name": "X-01 Power Armor",
+		"unitType": "Scrapper",
+	}
+	{
+		"name": "Union Power Armor",
+		"unitType": "Scrapper",
+	}
+	{
+		"name": "Raider Power Armor",
+		"unitType": "Scrapper",
+	}
+	{
+		"name": "Chinese Power Armor",
+		"unitType": "Scrapper",
+	}
+	{
+		"name": "Excavator Power Armor",
+		"unitType": "Scrapper",
+	}
+	*/
 ]

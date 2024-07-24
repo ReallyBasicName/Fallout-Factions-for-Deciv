@@ -1,4 +1,11 @@
 [
+	//Brotherhood of Steel
+	{
+		"name": "Without Borders",
+		"uniques": [
+			"May enter foreign tiles without open borders"
+		]
+	}
 	//Caesar's Legion
 	{
 		"name": "Legion Assault"
@@ -26,13 +33,15 @@
 			"Gain [-15]-[30] [Gold] <upon ending a turn in a [Settlement] tile>"
 		]
 	},
-	//Brotherhood of Steel
+	//Great Khans
 	{
-		"name": "Without Borders",
+		"name": "New Khan"
 		"uniques": [
-			"May enter foreign tiles without open borders"
+		    "[-100]% maintenance costs",
+			"Gain [5] [Gold] <upon ending a turn in a [Friendly land] tile>",
+
 		]
-	}
+	},
 	//New Vegas
 	{
 		"name": "Hearts",

@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Power Armor Training",
+		"era": "Decivilized era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 20
+		},
+		"uniques": [
+			"Only available <if [Pre-War Training Center] is constructed>"
+			"[+15]% Strength <for [Personnel] units> <when attacking>"
+			],
+		"policies": [
+			{
+				"name": "Power Armor Training Complete",
+				"uniques": ["[+15]% Strength <for [Power Armor] units> <when attacking>",]
+			}
+		]
+	},
+]

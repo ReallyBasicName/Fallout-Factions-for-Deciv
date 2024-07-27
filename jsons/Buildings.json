@@ -316,7 +316,7 @@
 		]
 	},
 	{
-		"name": "Recruitment Beacon",
+		"name": "Recruitment Radio Beacon",
 		"replaces": "Broadcast Tower",
 		"uniqueTo": "Commonwealth Minutemen",
 		"food": 1,
